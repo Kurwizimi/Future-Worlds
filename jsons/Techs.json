@@ -1,4 +1,5 @@
-{
+[
+	{
 		"columnNumber": 15,
 		"era": "Information era",
 		"techCost": 8470,
@@ -50,6 +51,8 @@
 				"quote": "" //QUOTE
 			}
 		]
+	},
+
 
 	 {
 		"columnNumber": 16,
@@ -149,4 +152,4 @@
 
 
 
-}
+]
