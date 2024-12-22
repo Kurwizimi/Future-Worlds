@@ -77,7 +77,7 @@
 				"name": "The Internet",
 				"row": 4,
 				"prerequisites": ["Mobile Tactics","Robotics"],
-				"quote": "" /Q
+				"quote": "" //Q
 			},
      				{
 				"name": "Particle Physics",
