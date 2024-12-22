@@ -9,65 +9,45 @@
 				{
 				"name": "Environmentalism",
 				"row": 1,
-				"prerequisites": [
-					"Ecology"
-				],
+				"prerequisites": ["Ecology"],
 				"quote": "" //QUOTE
 			},
 				{
 				"name": "Telecommunications",
 				"row": 3,
-				"prerequisites": [
-					"Ecology",
-					"Nuclear Fission"
-				],
+				"prerequisites": ["Ecology","Nuclear Fission"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 				{
 				"name": "Mobile Tactics",
 				"row": 4,
-				"prerequisites": [
-          				"Ecology",
-					"Nuclear Fission"
-				],
+				"prerequisites": ["Ecology","Nuclear Fission"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
      				{
 				"name": "Robotics",
 				"row": 5,
-				"prerequisites": [
-					"Rocketry",
-					"Computers"
-				],
+				"prerequisites": ["Rocketry","Computers"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
      				 {
 				"name": "Lasers",
 				"row": 6,
-				"prerequisites": [
-					"Computers"
-				],
+				"prerequisites": ["Computers"],
 				"quote": "" //QUOTE
 			},
 				{
 				"name": "Satellites",
 				"row": 7,
-				"prerequisites": [
-					"Rocketry"
-				],
-				"uniques": [
-					"Reveals the entire map"
-				],
+				"prerequisites": ["Rocketry"],
+				"uniques": ["Reveals the entire map"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
 			
 				{
 				"name": "Advanced Ballistics",
 				"row": 9,
-				"prerequisites": [
-					"Nuclear Fission",
-         				 "Rocketry"
-				],
+				"prerequisites": ["Nuclear Fission","Rocketry"],
 				"quote": "" //QUOTE
 			}
 		]
@@ -82,86 +62,82 @@
 				{
 				"name": "Gene Manipulation",
 				"row": 1,
-				"prerequisites": [
-					"Telecommunications",
-					"Environmentalism"
-				],
+				"prerequisites": ["Telecommunications","Environmentalism"],
 				"quote": "" //QUOTE
 			},
 				{
 				"name": "Globalization",
 				"row": 2,
-				"prerequisites": [
-					"Telecommunications"
-				],
+				"prerequisites": ["Telecommunications"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 				{
 				"name": "The Internet",
 				"row": 4,
-				"prerequisites": [
-          				"Mobile Tactics",
-					"Robotics"
-				],
+				"prerequisites": ["Mobile Tactics","Robotics"],
 				"quote": "" /Q
 			},
      				{
 				"name": "Particle Physics",
 				"row": 6,
-				"prerequisites": [
-					"Telecommunications",
-					"Robotics",
-					"Mobile Tactics"
-				],
+				"prerequisites": ["Telecommunications","Robotics","Mobile Tactics"],
 				"quote": "" //Q
 			},
      				 {
 				"name": "Stealth",
 				"row": 8,
-				"prerequisites": [
-					"Advanced Ballistics",
-					"Satellites"
-				],
+				"prerequisites": ["Advanced Ballistics","Satellites"],
 				"quote": "" //QUOTE
 			}
 		]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 	},
+
+	{
+        	"columnNumber": 17,
+        	"era": "Information era",
+        	"techCost": 9500,
+       		"buildingCost": 750,
+        	"wonderCost": 1250,
+        	"techs": [
+            			{
+                		"name": "Cloning",
+                		"row": 1,
+                		"prerequisites": ["Genetic Manipulation"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Memetics",
+                		"row": 2,
+                		"prerequisites": ["Genetic Manipulation", "Globalization", "The Internet"],
+                		"quote": "" // Do the Metal Gear Rising Quote here.
+            		},
+				{
+                		"name": "Distributed Computing",
+                		"row": 4,
+                		"prerequisites": ["The Internet"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Nanomaterials",
+                		"row": 6,
+                		"prerequisites": ["The Internet","Particle Physics"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "High-Energy Physics",
+                		"row": 8,
+                		"prerequisites": ["Stealth","Particle Physics"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Artificial Environments",
+                		"row": 10,
+                		"prerequisites": ["Stealth"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
 
 
 
