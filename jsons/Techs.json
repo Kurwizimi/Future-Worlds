@@ -96,8 +96,8 @@
 
 	{
         	"columnNumber": 17,
-        	"era": "Information era",
-        	"techCost": 9500,
+        	"era": "Adaption era",
+        	"techCost": 9800,
        		"buildingCost": 750,
         	"wonderCost": 1250,
         	"techs": [
@@ -135,6 +135,132 @@
                 		"name": "Artificial Environments",
                 		"row": 10,
                 		"prerequisites": ["Stealth"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
+	{
+        	"columnNumber": 18,
+        	"era": "Adaption era",
+        	"techCost": 9950,
+       		"buildingCost": 750,
+        	"wonderCost": 1250,
+        	"techs": [
+            			{
+                		"name": "Ecotheory",
+                		"row": 2,
+                		"prerequisites": ["Memetics"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Implants",
+                		"row": 3,
+                		"prerequisites": ["Memetics"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Cognitive Technology",
+                		"row": 5,
+                		"prerequisites": ["Distributed Computing", "Nanomaterials"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Microscale Engineering",
+                		"row": 7,
+                		"prerequisites": ["Nanomaterials", "High-Energy Physics"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Orbital Development",
+                		"row": 9,
+                		"prerequisites": ["High-Energy Physics", "Artificial Environments"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
+	{
+        	"columnNumber": 19,
+        	"era": "Manipulation era",
+        	"techCost": 1150,
+       		"buildingCost": 750,
+        	"wonderCost": 1250,
+        	"techs": [
+            			{
+                		"name": "Transgenics",
+                		"row": 1,
+                		"prerequisites": ["Cloning", "Ecotheory"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Neural Interface",
+                		"row": 4,
+                		"prerequisites": ["Implants", "Cognitive Technology"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Autonomous Systems",
+                		"row": 6,
+                		"prerequisites": ["Cognitive Technology"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Nuclear Fusion",
+                		"row": 8,
+                		"prerequisites": ["Microscale Engineering","Orbital Development"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Arcologies",
+                		"row": 10,
+                		"prerequisites": ["High-Energy Physics", "Artificial Environments"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
+	{
+        	"columnNumber": 20,
+        	"era": "Manipulation era",
+        	"techCost": 1300,
+       		"buildingCost": 750,
+        	"wonderCost": 1250,
+        	"techs": [
+            			{
+                		"name": "Designer Lifeforms",
+                		"row": 1,
+                		"prerequisites": ["Transgenics"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Biomodification",
+                		"row": 3,
+                		"prerequisites": ["Transgenics", "Implants"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Cybernetics",
+                		"row": 4,
+                		"prerequisites": ["Neural Interface"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Artificial Intelligence",
+                		"row": 5,
+                		"prerequisites": ["Autonomous Systems"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Nanotechnonogy",
+                		"row": 7,
+                		"prerequisites": ["Autonomous Systems", "Microscale Engineering"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Adamantium",
+                		"row": 9,
+                		"prerequisites": ["Nuclear Fusion"],
                 		"quote": "" 
             		}
         	]
