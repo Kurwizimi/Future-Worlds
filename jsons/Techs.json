@@ -1,4 +1,112 @@
 {
+  {
+		"columnNumber": 15,
+		"era": "Information era",
+		"techCost": 6900,
+		"buildingCost": 750,
+		"wonderCost": 1710,
+		"techs": [
+			{
+				"name": "Environmentalism",
+				"row": 1,
+				"prerequisites": [
+					"Ecology"
+				],
+				"quote": "" //QUOTE
+			},
+			{
+				"name": "Telecommunications",
+				"row": 3,
+				"prerequisites": [
+					"Ecology",
+					"Nuclear Fission"
+				],
+				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
+			},
+			{
+				"name": "Mobile Tactics",
+				"row": 4,
+				"prerequisites": [
+          "Ecology",
+					"Nuclear Fission"
+				],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
+      {
+				"name": "Robotics",
+				"row": 5,
+				"prerequisites": [
+					"Rocketry",
+					"Computers"
+				],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+      {
+				"name": "Lasers",
+				"row": 6,
+				"prerequisites": [
+					"Computers"
+				],
+				"quote": "" //QUOTE
+			},
+			{
+				"name": "Satellites",
+				"row": 7,
+				"prerequisites": [
+					"Rocketry"
+				],
+				"uniques": [
+					"Reveals the entire map"
+				],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			
+			{
+				"name": "Advanced Ballistics",
+				"row": 9,
+				"prerequisites": [
+					"Nuclear Fission",
+          "Rocketry"
+				],
+				"quote": "" //QUOTE
+			}
+		]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	},
 
 
 
