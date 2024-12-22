@@ -62,7 +62,7 @@
 		"wonderCost": 1250,
 		"techs": [
 				{
-				"name": "Gene Manipulation",
+				"name": "Genetic Manipulation",
 				"row": 1,
 				"prerequisites": ["Telecommunications","Environmentalism"],
 				"quote": "" //QUOTE
