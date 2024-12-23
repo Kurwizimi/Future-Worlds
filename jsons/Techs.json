@@ -96,7 +96,7 @@
 
 	{
         	"columnNumber": 17,
-        	"era": "Adaption era",
+        	"era": "Information era",
         	"techCost": 9800,
        		"buildingCost": 750,
         	"wonderCost": 1250,
@@ -142,7 +142,7 @@
 
 	{
         	"columnNumber": 18,
-        	"era": "Adaption era",
+        	"era": "Future era",
         	"techCost": 9950,
        		"buildingCost": 750,
         	"wonderCost": 1250,
@@ -182,8 +182,8 @@
 
 	{
         	"columnNumber": 19,
-        	"era": "Manipulation era",
-        	"techCost": 1150,
+        	"era": "Future era",
+        	"techCost": 10150,
        		"buildingCost": 750,
         	"wonderCost": 1250,
         	"techs": [
@@ -222,10 +222,10 @@
 
 	{
         	"columnNumber": 20,
-        	"era": "Manipulation era",
-        	"techCost": 1300,
+        	"era": "Future era",
+        	"techCost": 10300,
        		"buildingCost": 750,
-        	"wonderCost": 1250,
+        	"wonderCost": 1500,
         	"techs": [
             			{
                 		"name": "Designer Lifeforms",
@@ -265,6 +265,97 @@
             		}
         	]
     	},
+
+	{
+        	"columnNumber": 21,
+        	"era": "Future era",
+        	"techCost": 10500,
+       		"buildingCost": 850,
+        	"wonderCost": 1500,
+        	"techs": [
+            			{
+                		"name": "Terraforming",
+                		"row": 1,
+                		"prerequisites": ["Designer Lifeforms", "Biomodification"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Human Augmentation",
+                		"row": 3,
+                		"prerequisites": ["Biomodification", "Cybernetics"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Digital Society",
+                		"row": 5,
+                		"prerequisites": ["Cybernetics, Artificial Intelligence"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Smart Materials",
+                		"row": 6,
+                		"prerequisites": ["Autonomous Systems"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Nanotechnonogy",
+                		"row": 8,
+                		"prerequisites": ["Artificial Intelligence", "Nanotechnology"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Hyperstructures",
+                		"row": 10,
+                		"prerequisites": ["Adamantium, Arcologies"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
+	{
+        	"columnNumber": 22,
+        	"era": "Future era",
+        	"techCost": 10750,
+       		"buildingCost": 900,
+        	"wonderCost": 1750,
+        	"techs": [
+            			{
+                		"name": "Homo Superior",
+                		"row": 1,
+                		"prerequisites": ["Terraforming", "Human Augmentation"],
+                		"quote": ""
+            		},
+				{
+                		"name": "Computronium",
+                		"row": 3,
+                		"prerequisites": ["Digital Society", "Smart Materials"],
+                		"quote": "" 
+            		},
+				{
+                		"name": "Space Colonization",
+                		"row": 10,
+                		"prerequisites": ["Energy Theory, Hyperstructures"],
+                		"quote": "" 
+            		}
+        	]
+    	},
+
+	{
+        	"columnNumber": 23,
+        	"era": "Future era",
+        	"techCost": 11000,
+        	"buildingCost": 750,
+       		"wonderCost": 1250,
+        		"techs": [
+            			{
+                		"name": "Future Tech",
+                		"row": 5,
+                		"prerequisites": ["Homo Superior","Computronium","Space Colonization"],
+                		"uniques": ["Comment [Who knows what the future holds?]","Can be continually researched"],
+                		"quote": "'I think we agree, the past is over.' - George W. Bush"
+            		}
+		]
+    	}
 
 
 
