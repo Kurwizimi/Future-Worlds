@@ -1,12 +1,136 @@
 [
-	{
+
+		{
+        	"name": "Machine Gun",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 1,
+        	"movement": 2,
+        	"strength": 60,
+        	"rangedStrength": 60,
+        	"cost": 350,
+        	"requiredTech": "Ballistics",
+        	"upgradesTo": "Bazooka",
+        	"obsoleteTech": "Nuclear Fission",
+        	"attackSound": "machinegun"
+    	},
+		{
+       		"name": "Mechanized Infantry",
+        	"unitType": "Gunpowder",
+        	"movement": 3,
+        	"strength": 90,
+        	"cost": 375,
+        	"requiredTech": "Mobile Tactics",
+		"upgradesTo": "Power Armor Infantry",
+		"obsoleteTech": "",//
+        	"attackSound": "tankshot"
+    	},
+		{
+        	"name": "Marine",
+        	"unitType": "Gunpowder",
+        	"movement": 2,
+        	"strength": 65,
+        	"cost": 400,
+        	"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Special Forces",
+        	"promotions": ["Amphibious"],
+		"obsoleteTech": "",//
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+        	"attackSound": "shot"
+    	},
+		{
+       		"name": "Paratrooper",
+        	"unitType": "Gunpowder",
+        	"movement": 2,
+        	"strength": 65,
+        	"cost": 375,
+        	"requiredTech": "Radar",
+		"upgradesTo": "Airborne Forces",
+		"obsoleteTech": "The Internet",
+        	"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","No movement cost to pillage"],
+       		"attackSound": "shot"
+    },
+		{
+        	"name": "Rocket Artillery",
+        	"unitType": "Siege",
+        	"movement": 2,
+        	"strength": 45,
+        	"rangedStrength": 60,
+        	"range": 3,
+        	"cost": 425,
+        	"requiredTech": "Rocketry",
+		"upgradesTo": "Mech Artillery",
+		"obsoleteTech": "",//
+		"promotions": [ "Indirect Fire"],
+        	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight"],
+       		"attackSound": "artillery"
+    },
+		{
+		"name": "Modern Armor",
+        	"unitType": "Armored",
+        	"movement": 5,
+        	"strength": 100,
+        	"cost": 425,
+        	"requiredTech": "Lasers",
+		"upgradesTo": "Railgun Armor",
+		"obsoleteTech": "",//
+        	"requiredResource": "Aluminum",
+        	"uniques": ["Can move after attacking","No defensive terrain bonus"],
+        	"attackSound": "tankshot"
+    },
+		{
+        	"name": "Helicopter Gunship",
+        	"unitType": "Helicopter",
+        	"movement": 6,
+        	"strength": 60,
+        	"cost": 425,
+        	"requiredTech": "Computers",
+		"upgradesTo": "VTOL",
+		"obsoleteTech": "",//
+       		"requiredResource": "Aluminum",
+        	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities"],
+        	"attackSound": "machinegun"
+    },
+	 	{
+       		"name": "Destroyer",
+        	"unitType": "Melee Water",
+       		"movement": 6,
+        	"strength": 55,
+        	"interceptRange": 2,
+        	"cost": 375,
+        	"requiredTech": "Combustion", 
+		"upgradesTo": "Missile Destroyer",
+        	"obsoleteTech": "",
+        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>",],
+        	"attackSound": "shipguns"
+    },
+
+
+	
+	// New Units
+
+		{
+        	"name": "Bazooka",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 1,
+        	"movement": 2,
+        	"strength": 85,
+        	"rangedStrength": 85,
+        	"cost": 375,
+        	"requiredTech": "Nuclear Fission",
+        	"upgradesTo": "Drone UAV",
+        	"obsoleteTech": "",//
+        	"attackSound": "tankshot"
+    	},
+		{
 		"name": "Airborne Forces",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 85,
 		"cost": 395,
 		"requiredTech": "The Internet",
+		"upgradesTo": "XCOM Squad",
+		"obsoleteTech": "",//
 		"uniques": ["No movement cost to pillage","May Paradrop up to [20] tiles from inside friendly territory"],
 		"attackSound": "machinegun"
-	}
+	},
 ]
