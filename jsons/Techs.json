@@ -252,7 +252,7 @@
                 		"quote": "" 
             		},
 				{
-                		"name": "Nanotechnonogy",
+                		"name": "Nanotechnology",
                 		"row": 7,
                 		"prerequisites": ["Autonomous Systems", "Microscale Engineering"],
                 		"quote": "" 
