@@ -99,8 +99,38 @@
         	"cost": 375,
         	"requiredTech": "Combustion", 
 		"upgradesTo": "Missile Destroyer",
-        	"obsoleteTech": "",
+        	"obsoleteTech": "",//
         	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>",],
+        	"attackSound": "shipguns"
+    },
+		{
+        	"name": "Battleship",
+        	"unitType": "Ranged Water",
+        	"movement": 5,
+        	"strength": 55,
+        	"rangedStrength": 65,
+        	"range": 3,
+        	"cost": 375,
+        	"requiredTech": "Electronics",
+		"upgradesTo": "Arsenal Ship",
+        	"obsoleteTech": "",//
+		"requiredResource": "Oil",
+        	"promotions": ["Indirect Fire"],
+        	"attackSound": "shipguns"
+    },
+	 	{
+       		"name": "Missile Cruiser",
+        	"unitType": "Ranged Water",
+        	"movement": 7,
+        	"strength": 80,
+        	"rangedStrength": 100,
+        	"range": 3,
+        	"cost": 425,
+        	"requiredTech": "Robotics",
+		"upgradesTo": "Arsenal Ship",
+        	"obsoleteTech": "",//
+        	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "[100]% chance to intercept air attacks","Can carry [3] [Missile] units"],
+        	"promotions": ["Indirect Fire"],
         	"attackSound": "shipguns"
     },
 
