@@ -1,17 +1,12 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Airborne Forces",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 85,
+		"cost": 395,
+		"requiredTech": "The Internet",
+		"uniques": ["No movement cost to pillage","May Paradrop up to [20] tiles from inside friendly territory"],
+		"attackSound": "machinegun"
 	}
 ]
