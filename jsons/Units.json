@@ -1,5 +1,7 @@
 [
 
+	// Existing units
+	// Need to be re-added so that they can promote to the new units added
 		{
         	"name": "Machine Gun",
         	"unitType": "Ranged Gunpowder",
@@ -21,7 +23,7 @@
         	"cost": 375,
         	"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Power Armor Infantry",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Nanomaterials",
         	"attackSound": "tankshot"
     	},
 		{
@@ -113,7 +115,7 @@
         	"cost": 375,
         	"requiredTech": "Electronics",
 		"upgradesTo": "Arsenal Ship",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Distributed Computing",
 		"requiredResource": "Oil",
         	"promotions": ["Indirect Fire"],
         	"attackSound": "shipguns"
@@ -128,15 +130,82 @@
         	"cost": 425,
         	"requiredTech": "Robotics",
 		"upgradesTo": "Arsenal Ship",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Distributed Computing",
         	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "[100]% chance to intercept air attacks","Can carry [3] [Missile] units"],
         	"promotions": ["Indirect Fire"],
         	"attackSound": "shipguns"
+    },
+		{
+        	"name": "Nuclear Submarine",
+        	"unitType": "Submarine",
+        	"movement": 6,
+        	"strength": 50,
+        	"range": 3,
+        	"rangedStrength": 85,
+        	"cost": 425,
+        	"requiredTech": "Telecommunications",
+		"upgradesTo": "Cybersub",
+        	"obsoleteTech": "",//
+        	"uniques": ["[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units",],
+        	"attackSound": "torpedo"
+    },
+		{
+        	"name": "Carrier",
+        	"unitType": "Aircraft Carrier",
+        	"movement": 5,
+        	"strength": 50,
+        	"cost": 375,
+        	"requiredTech": "Electronics",
+		"upgradesTo": "Supercarrier",
+        	"obsoleteTech": "",//
+        	"uniques": ["Cannot attack","Can carry [2] [Aircraft] units",]
+    },
+		{
+        	"name": "Jet Fighter",
+        	"unitType": "Fighter",
+        	"strength": 75,
+        	"rangedStrength": 75,
+        	"range": 10,
+        	"interceptRange": 10,
+        	"cost": 425,
+        	"requiredTech": "Lasers",
+		"upgradesTo": "Drone Fighter",
+        	"obsoleteTech": "",//
+        	"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+        	"attackSound": "jetgun"
+    },
+		{
+        	"name": "Stealth Bomber",
+        	"unitType": "Bomber",
+        	"strength": 85,
+        	"rangedStrength": 85,
+       		"range": 20,
+        	"cost": 425,
+        	"requiredTech": "Stealth",
+		"upgradesTo": "Suborbital Bomber",
+        	"obsoleteTech": "",//
+        	"requiredResource": "Aluminum",
+        	"uniques": ["Damage taken from interception reduced by [70]%","Cannot be carried by [Carrier] units","[+4] Sight","Can see over obstacles"],
+        	"attackSound": "bombing"
+    },
+		{
+        	"name": "Guided Missile",
+       		"unitType": "Missile",
+        	"strength": 60,
+        	"rangedStrength": 60,
+        	"range": 8,
+        	"cost": 150,
+        	"requiredTech": "Advanced Ballistics",
+		"upgradesTo": "Hypervelocity Missile",
+        	"obsoleteTech": "",//
+        	"uniques": ["[-100]% maintenance costs"],
+        	"attackSound": "missile"
     },
 
 
 	
 	// New Units
+	// Information era
 
 		{
         	"name": "Bazooka",
@@ -148,7 +217,7 @@
         	"cost": 375,
         	"requiredTech": "Nuclear Fission",
         	"upgradesTo": "Drone UAV",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "The Internet",
         	"attackSound": "tankshot"
     	},
 		{
@@ -163,4 +232,131 @@
 		"uniques": ["No movement cost to pillage","May Paradrop up to [20] tiles from inside friendly territory"],
 		"attackSound": "machinegun"
 	},
+		{
+       		"name": "Arsenal Ship",
+        	"unitType": "Ranged Water",
+        	"movement": 8,
+        	"strength": 100,
+        	"rangedStrength": 125,
+        	"range": 3,
+        	"cost": 500,
+        	"requiredTech": "Distributed Computing",
+		"upgradesTo": "Arsenal Ship",
+        	"obsoleteTech": "",//
+        	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "[100]% chance to intercept air attacks","Can carry [4] [Missile] units"],
+        	"promotions": ["Indirect Fire"],
+        	"attackSound": "shipguns"
+    	},
+		{
+        	"name": "Drone UAV",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 2,
+        	"movement": 2,
+        	"strength": 60,
+        	"rangedStrength": 90,
+        	"cost": 425,
+        	"requiredTech": "The Internet",
+        	"upgradesTo": "Hybrid Drone",
+        	"obsoleteTech": "",//
+		"promotions": ["Indirect Fire"],
+        	"attackSound": "machinegun"
+    	},
+		{
+       		"name": "Missile Destroyer",
+        	"unitType": "Melee Water",
+       		"movement": 7,
+        	"strength": 75,
+        	"interceptRange": 3,
+        	"cost": 425,
+        	"requiredTech": "Particle Physics", 
+		"upgradesTo": "Advanced Destroyer",
+        	"obsoleteTech": "",//
+        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [1] [Missile] units"],
+        	"attackSound": "shipguns"
+    	},
+		{
+		"name": "Mutant",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 80,
+		"cost": 395,
+		"requiredTech": "Genetic Manipulation",
+		"upgradesTo": "",
+		"obsoleteTech": "",//
+		"uniques": ["Heals [25] damage if it kills a unit"],
+		"promotions": ["March"],
+		"attackSound": "machinegun" //zombie grunt
+	},
+		{
+		"name": "Power Armor Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 105,
+		"cost": 400,
+		"requiredTech": "Nanomaterials",
+		"upgradesTo": "",
+		"obsoleteTech": "",//
+		"attackSound": "machinegun"
+	},
+		{
+		"name": "Railgun Armor",
+        	"unitType": "Armored",
+        	"movement": 5,
+        	"strength": 120,
+        	"cost": 500,
+        	"requiredTech": "High-Energy Physics",
+		"upgradesTo": "",
+		"obsoleteTech": "",//
+        	"requiredResource": "Nanomaterial",
+        	"uniques": ["Can move after attacking","No defensive terrain bonus"],
+        	"attackSound": "tankshot" //something electrical
+    	},
+		{
+		"name": "Special Forces",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 85,
+		"cost": 395,
+		"requiredTech": "Globalization",
+		"upgradesTo": "XCOM Squad",
+		"obsoleteTech": "",//
+		"uniques": ["May enter foreign tiles without open borders"],
+		"promotions": ["Amphibious"],
+		"attackSound": "machinegun"
+	},
+		{
+        	"name": "Supercarrier",
+        	"unitType": "Aircraft Carrier",
+        	"movement": 6,
+        	"strength": 55,
+		"range": 1,
+		"rangedStrength": 20,
+        	"cost": 410,
+        	"requiredTech": "Robotics",
+		"upgradesTo": "",
+        	"obsoleteTech": "",//
+		"requiredResource": "Uranium",
+        	"uniques": ["Can carry [4] [Aircraft] units", "[40]% chance to intercept air attacks"]
+    	},
+	{
+        	"name": "VTOL",
+        	"unitType": "Helicopter",
+        	"movement": 6,
+        	"strength": 80,
+        	"cost": 425,
+        	"requiredTech": "Distributed Computing",
+		"upgradesTo": "VTOL",
+		"obsoleteTech": "",//
+       		"requiredResource": "Nanomaterial",
+        	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities","Ignores terrain cost"],
+        	"attackSound": "machinegun"
+    },
+
+
+
+
+
+
+
+	
 ]
