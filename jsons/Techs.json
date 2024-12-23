@@ -214,7 +214,7 @@
 				{
                 		"name": "Arcologies",
                 		"row": 10,
-                		"prerequisites": ["High-Energy Physics", "Artificial Environments"],
+                		"prerequisites": ["Orbital Development"],
                 		"quote": "" 
             		}
         	]
