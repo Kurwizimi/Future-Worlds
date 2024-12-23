@@ -298,7 +298,7 @@
                 		"quote": "" 
             		},
 				{
-                		"name": "Nanotechnonogy",
+                		"name": "Energy Theory",
                 		"row": 8,
                 		"prerequisites": ["Artificial Intelligence", "Nanotechnology"],
                 		"quote": "" 
