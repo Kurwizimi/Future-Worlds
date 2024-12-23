@@ -288,7 +288,7 @@
 				{
                 		"name": "Digital Society",
                 		"row": 5,
-                		"prerequisites": ["Cybernetics, Artificial Intelligence"],
+                		"prerequisites": ["Cybernetics", "Artificial Intelligence"],
                 		"quote": "" 
             		},
 				{
@@ -306,7 +306,7 @@
 				{
                 		"name": "Hyperstructures",
                 		"row": 10,
-                		"prerequisites": ["Adamantium, Arcologies"],
+                		"prerequisites": ["Adamantium", "Arcologies"],
                 		"quote": "" 
             		}
         	]
@@ -334,7 +334,7 @@
 				{
                 		"name": "Space Colonization",
                 		"row": 10,
-                		"prerequisites": ["Energy Theory, Hyperstructures"],
+                		"prerequisites": ["Energy Theory", "Hyperstructures"],
                 		"quote": "" 
             		}
         	]
