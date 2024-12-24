@@ -74,7 +74,7 @@
         	"cost": 425,
         	"requiredTech": "Lasers",
 		"upgradesTo": "Railgun Armor",
-		"obsoleteTech": "",//
+		"obsoleteTech": "High-Energy Physics",
         	"requiredResource": "Aluminum",
         	"uniques": ["Can move after attacking","No defensive terrain bonus"],
         	"attackSound": "tankshot"
