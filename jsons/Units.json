@@ -87,7 +87,7 @@
         	"cost": 425,
         	"requiredTech": "Computers",
 		"upgradesTo": "VTOL",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Distributed Computing",
        		"requiredResource": "Aluminum",
         	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities"],
         	"attackSound": "machinegun"
