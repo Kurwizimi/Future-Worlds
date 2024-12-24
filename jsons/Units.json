@@ -228,7 +228,7 @@
 		"cost": 425,
 		"requiredTech": "The Internet",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Nanotechnology",//
 		"uniques": ["No movement cost to pillage","May Paradrop up to [20] tiles from inside friendly territory"],
 		"attackSound": "machinegun"
 	},
@@ -255,7 +255,7 @@
         	"cost": 425,
         	"requiredTech": "The Internet",
         	"upgradesTo": "Hybrid Drone",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Implants",
 		"promotions": ["Indirect Fire"],
         	"attackSound": "machinegun"
     	},
@@ -279,7 +279,7 @@
 		"strength": 80,
 		"cost": 425,
 		"requiredTech": "Genetic Manipulation",
-		"upgradesTo": "",
+		"upgradesTo": "Organic Infantry",
 		"obsoleteTech": "",//
 		"uniques": ["Heals [25] damage if it kills a unit"],
 		"promotions": ["March"],
@@ -292,8 +292,8 @@
 		"strength": 105,
 		"cost": 475
 		"requiredTech": "Nanomaterials",
-		"upgradesTo": "",
-		"obsoleteTech": "",//
+		"upgradesTo": "Battlesuit",
+		"obsoleteTech": "Adamantium",
 		"attackSound": "machinegun"
 	},
 		{
@@ -303,8 +303,8 @@
         	"strength": 120,
         	"cost": 525,
         	"requiredTech": "High-Energy Physics",
-		"upgradesTo": "",
-		"obsoleteTech": "",//
+		"upgradesTo": "Giant Death Robot",
+		"obsoleteTech": "Adamantium",
         	"requiredResource": "Nanomaterial",
         	"uniques": ["Can move after attacking","No defensive terrain bonus"],
         	"attackSound": "tankshot" //something electrical
@@ -317,7 +317,7 @@
 		"cost": 450,
 		"requiredTech": "Globalization",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Namotechnology",
 		"uniques": ["May enter foreign tiles without open borders"],
 		"promotions": ["Amphibious"],
 		"attackSound": "machinegun"
@@ -331,7 +331,7 @@
 		"rangedStrength": 20,
         	"cost": 425,
         	"requiredTech": "Robotics",
-		"upgradesTo": "",
+		"upgradesTo": "Nexus",
         	"obsoleteTech": "",//
 		"requiredResource": "Uranium",
         	"uniques": ["Can carry [4] [Aircraft] units", "[40]% chance to intercept air attacks"]
@@ -343,8 +343,8 @@
         	"strength": 80,
         	"cost": 525,
         	"requiredTech": "Distributed Computing",
-		"upgradesTo": "VTOL",
-		"obsoleteTech": "",//
+		"upgradesTo": "Hovertank",
+		"obsoleteTech": "Cybernetics",
        		"requiredResource": "Nanomaterial",
         	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities","Ignores terrain cost"],
         	"attackSound": "machinegun"
@@ -389,7 +389,7 @@
         	"movement": 4,
         	"strength": 70,
         	"rangedStrength": 110,
-        	"cost": ,//Need Hybrid Drone
+        	"cost": 925,
         	"requiredTech": "Terraforming",
 		"promotions": ["Indirect Fire","March"],
         	"attackSound": "machinegun"
@@ -428,6 +428,98 @@
 		"promotions": ["March","Volley"],
 		"attackSound": "machinegun" //zombie grunt
 	},
+		{
+        	"name": "Crawler",
+        	"unitType": "Siege",
+        	"movement": 3,
+        	"strength": 160,
+        	"rangedStrength": 120,
+        	"range": 4,
+        	"cost": 925,
+        	"requiredTech": "Hyperstructures",
+		"requiredResource": ["Nanomaterial","Uranium"],
+        	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [3] [Missile] units","No movement cost to pillage"],
+		"promotions": [ "Indirect Fire"],
+       		"attackSound": "artillery"
+    	},
+		{
+        	"name": "Cybersub",
+        	"unitType": "Submarine",
+        	"movement": 8,
+        	"strength": 75,
+        	"range": 4,
+        	"rangedStrength": 100,
+        	"cost": 625,
+        	"requiredTech": "Neural Interface",
+		"requiredResource": "Nanomaterial",
+        	"uniques": [ "Can see invisible [Submarine] units","[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units"],
+        	"attackSound": "torpedo"
+    	},
+		{
+        	"name": "Drone Fighter",
+        	"unitType": "Fighter",
+        	"strength": 100,
+        	"rangedStrength": 100,
+        	"range": 12,
+        	"interceptRange": 12,
+        	"cost": 525,
+        	"requiredTech": "Cognitive Technology",
+		"requiredResource": "Nanomaterial",
+        	"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+        	"attackSound": "jetgun"
+    	},
+	//Genoswarm for the Bio-titan
+	//Just need to find a way to code for it
+		{
+        	"name": "Hovertank",
+        	"unitType": "Helicopter",
+        	"movement": 6,
+        	"strength": 100,
+        	"cost": 725,
+        	"requiredTech": "Cybernetics",
+		"requiredResource": "Nanomaterial",
+        	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","[-33]% Strength <vs cities> <when attacking>","Ignores terrain cost"],
+        	"attackSound": "tankshot"
+   	},
+		{
+        	"name": "Hybrid Drone",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 3,
+        	"movement": 3,
+        	"strength": 65,
+        	"rangedStrength": 100,
+        	"cost": 525,
+        	"requiredTech": "Implants",
+		"uniques": ["Can move after attacking"],
+		"promotions": ["Indirect Fire","March"],
+        	"attackSound": "machinegun"
+    	},
+		{
+        	"name": "Hypervelocity Missile",
+       		"unitType": "Missile",
+        	"strength": 60,
+        	"rangedStrength": 120,
+        	"range": 12,
+        	"cost": 250,
+        	"requiredTech": "Microscale Engineering",
+        	"uniques": ["[-100]% maintenance costs"],
+		"promotions": ["Evasion"],
+        	"attackSound": "missile"
+    	},
+		{
+        	"name": "Mech Artillery",
+        	"unitType": "Siege",
+        	"movement": 3,
+        	"strength": 60,
+        	"rangedStrength": 90,
+        	"range": 3,
+        	"cost": 525,
+        	"requiredTech": "Microscale Engineering",
+		"requiredResource": ["Nanomaterial","Uranium"],
+        	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [2] [Missile] units"],
+		"promotions": [ "Indirect Fire"],
+       		"attackSound": "artillery"
+    	},
 	
 
 
