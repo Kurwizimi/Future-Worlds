@@ -241,8 +241,6 @@
         	"range": 3,
         	"cost": 500,
         	"requiredTech": "Distributed Computing",
-		"upgradesTo": "Arsenal Ship",
-        	"obsoleteTech": "",//
         	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "[100]% chance to intercept air attacks","Can carry [4] [Missile] units"],
         	"promotions": ["Indirect Fire"],
         	"attackSound": "shipguns"
@@ -270,7 +268,7 @@
         	"cost": 425,
         	"requiredTech": "Particle Physics", 
 		"upgradesTo": "Advanced Destroyer",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Autonomous Systems",
         	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [1] [Missile] units"],
         	"attackSound": "shipguns"
     	},
@@ -338,7 +336,7 @@
 		"requiredResource": "Uranium",
         	"uniques": ["Can carry [4] [Aircraft] units", "[40]% chance to intercept air attacks"]
     	},
-	{
+		{
         	"name": "VTOL",
         	"unitType": "Helicopter",
         	"movement": 6,
@@ -350,7 +348,21 @@
        		"requiredResource": "Nanomaterial",
         	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities","Ignores terrain cost"],
         	"attackSound": "machinegun"
-    },
+   	},
+
+	//Future Era
+		{
+       		"name": "Advanced Destroyer",
+        	"unitType": "Melee Water",
+       		"movement": 8,
+        	"strength": 100,
+        	"interceptRange": 4,
+        	"cost": 525,
+        	"requiredTech": "Autonomous Systems", 
+        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [90]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [2] [Missile] units"],
+        	"attackSound": "shipguns"
+    	},
+	
 
 
 
