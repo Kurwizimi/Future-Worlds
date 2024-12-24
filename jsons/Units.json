@@ -357,11 +357,22 @@
        		"movement": 8,
         	"strength": 100,
         	"interceptRange": 4,
-        	"cost": 525,
+        	"cost": 525,//
         	"requiredTech": "Autonomous Systems", 
         	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [90]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [2] [Missile] units"],
         	"attackSound": "shipguns"
     	},
+		{
+		"name": "Automaton",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 90,
+		"cost": 395,//
+		"requiredTech": "Cognitive Technology",
+		"upgradesTo": "Robot Infantry",
+		"obsoleteTech": "Artificial Intelligence",
+		"attackSound": "machinegun"
+	},
 	
 
 
