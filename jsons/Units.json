@@ -373,6 +373,61 @@
 		"obsoleteTech": "Artificial Intelligence",
 		"attackSound": "machinegun"
 	},
+		{
+		"name": "Battlesuit",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 120,
+		"cost": 775,
+		"requiredTech": "Adamantium",
+		"attackSound": "machinegun"
+	},
+		{
+        	"name": "Biodrone",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 4,
+        	"movement": 4,
+        	"strength": 70,
+        	"rangedStrength": 110,
+        	"cost": ,//Need Hybrid Drone
+        	"requiredTech": "Terraforming",
+		"promotions": ["Indirect Fire","March"],
+        	"attackSound": "machinegun"
+    	},
+		{
+		"name": "Bio-Titan",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 140,
+		"cost": 1125,
+		"requiredTech": "Terraforming",
+		"requiredResource": ["Nanomaterial","Uranium"],
+		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage"],
+		"promotions": ["March","Volley"],
+		"attackSound": "machinegun" //zombie grunt
+	},
+		{
+		"name": "Biotrooper",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 110,
+		"cost": ,//Need Organic Infantry
+		"requiredTech": "Biomodification",
+		"uniques": ["Heals [25] damage if it kills a unit","May enter foreign tiles without open borders"],
+		"promotions": ["March","Amphibious"],
+		"attackSound": "machinegun"
+	},
+		{
+		"name": "Chimera",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 80,
+		"cost": 725,
+		"requiredTech": "Designer Lifeforms",
+		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost"],
+		"promotions": ["March","Volley"],
+		"attackSound": "machinegun" //zombie grunt
+	},
 	
 
 
