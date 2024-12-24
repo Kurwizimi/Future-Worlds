@@ -214,7 +214,7 @@
         	"movement": 2,
         	"strength": 85,
         	"rangedStrength": 85,
-        	"cost": 375,
+        	"cost": 400,
         	"requiredTech": "Nuclear Fission",
         	"upgradesTo": "Drone UAV",
         	"obsoleteTech": "The Internet",
@@ -225,7 +225,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 85,
-		"cost": 395,
+		"cost": 425,
 		"requiredTech": "The Internet",
 		"upgradesTo": "XCOM Squad",
 		"obsoleteTech": "",//
@@ -277,7 +277,7 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 80,
-		"cost": 395,
+		"cost": 425,
 		"requiredTech": "Genetic Manipulation",
 		"upgradesTo": "",
 		"obsoleteTech": "",//
@@ -290,7 +290,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 105,
-		"cost": 400,
+		"cost": 475
 		"requiredTech": "Nanomaterials",
 		"upgradesTo": "",
 		"obsoleteTech": "",//
@@ -301,7 +301,7 @@
         	"unitType": "Armored",
         	"movement": 5,
         	"strength": 120,
-        	"cost": 500,
+        	"cost": 525,
         	"requiredTech": "High-Energy Physics",
 		"upgradesTo": "",
 		"obsoleteTech": "",//
@@ -314,7 +314,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 85,
-		"cost": 395,
+		"cost": 450,
 		"requiredTech": "Globalization",
 		"upgradesTo": "XCOM Squad",
 		"obsoleteTech": "",//
@@ -329,7 +329,7 @@
         	"strength": 55,
 		"range": 1,
 		"rangedStrength": 20,
-        	"cost": 410,
+        	"cost": 425,
         	"requiredTech": "Robotics",
 		"upgradesTo": "",
         	"obsoleteTech": "",//
@@ -341,7 +341,7 @@
         	"unitType": "Helicopter",
         	"movement": 6,
         	"strength": 80,
-        	"cost": 425,
+        	"cost": 525,
         	"requiredTech": "Distributed Computing",
 		"upgradesTo": "VTOL",
 		"obsoleteTech": "",//
@@ -357,7 +357,7 @@
        		"movement": 8,
         	"strength": 100,
         	"interceptRange": 4,
-        	"cost": 525,//
+        	"cost": 625,
         	"requiredTech": "Autonomous Systems", 
         	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [90]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [2] [Missile] units"],
         	"attackSound": "shipguns"
@@ -367,7 +367,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 90,
-		"cost": 395,//
+		"cost": 525,
 		"requiredTech": "Cognitive Technology",
 		"upgradesTo": "Robot Infantry",
 		"obsoleteTech": "Artificial Intelligence",
