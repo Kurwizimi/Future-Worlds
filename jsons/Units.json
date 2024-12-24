@@ -146,7 +146,7 @@
         	"requiredTech": "Telecommunications",
 		"upgradesTo": "Cybersub",
         	"obsoleteTech": "",//
-        	"uniques": ["[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units",],
+        	"uniques": ["[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units"],
         	"attackSound": "torpedo"
     },
 		{
@@ -157,7 +157,7 @@
         	"cost": 375,
         	"requiredTech": "Electronics",
 		"upgradesTo": "Supercarrier",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Robotics",
         	"uniques": ["Cannot attack","Can carry [2] [Aircraft] units",]
     },
 		{
