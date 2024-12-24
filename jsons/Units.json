@@ -35,7 +35,7 @@
         	"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "Special Forces",
         	"promotions": ["Amphibious"],
-		"obsoleteTech": "",//
+		"obsoleteTech": "Globalization",
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
         	"attackSound": "shot"
     	},
