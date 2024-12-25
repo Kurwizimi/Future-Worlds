@@ -616,7 +616,7 @@
 		"uniques": ["Can move after attacking","Ignores terrain cost"],
 		"attackSound": "machinegun" 
 	},
-	{
+		{
 		"name": "XCOM Squad",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -627,6 +627,41 @@
 		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","No movement cost to pillage"],
 		"attackSound": "machinegun"
 	},
+	//Spaceship parts
+		{
+        	"name": "SS Booster",
+        	"unitType": "Civilian",
+        	"movement": 2,
+        	"cost": 1150,
+        	"requiredTech": "Energy Theory",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+    	},
+		{
+        	"name": "SS Cockpit",
+        	"unitType": "Civilian",
+        	"movement": 2,
+        	"cost": 1150,
+        	"requiredTech": "Computronium",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+    	},
+		{
+        	"name": "SS Engine",
+        	"unitType": "Civilian",
+        	"movement": 2,
+        	"cost": 1150,
+        	"requiredTech": "Space Colonization",
+		"requiredResource": "Nanomaterial",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+    	},
+	{
+        	"name": "SS Stasis Chamber",
+        	"unitType": "Civilian",
+        	"movement": 2,
+        	"cost": 1150,
+        	"requiredTech": "Homo Superior",
+		"requiredResource": "Nanomaterial",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+    	},
 	
 
 
