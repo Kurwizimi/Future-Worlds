@@ -183,7 +183,7 @@
         	"cost": 425,
         	"requiredTech": "Stealth",
 		"upgradesTo": "Suborbital Bomber",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Nuclear Fusion",
         	"requiredResource": "Aluminum",
         	"uniques": ["Damage taken from interception reduced by [70]%","Cannot be carried by [Carrier] units","[+4] Sight","Can see over obstacles"],
         	"attackSound": "bombing"
@@ -228,7 +228,7 @@
 		"cost": 425,
 		"requiredTech": "The Internet",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "Nanotechnology",//
+		"obsoleteTech": "Nanotechnology",
 		"uniques": ["No movement cost to pillage","May Paradrop up to [20] tiles from inside friendly territory"],
 		"attackSound": "machinegun"
 	},
@@ -280,7 +280,7 @@
 		"cost": 425,
 		"requiredTech": "Genetic Manipulation",
 		"upgradesTo": "Organic Infantry",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Implants",
 		"uniques": ["Heals [25] damage if it kills a unit"],
 		"promotions": ["March"],
 		"attackSound": "machinegun" //zombie grunt
@@ -317,7 +317,7 @@
 		"cost": 450,
 		"requiredTech": "Globalization",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "Namotechnology",
+		"obsoleteTech": "Nanotechnology",
 		"uniques": ["May enter foreign tiles without open borders"],
 		"promotions": ["Amphibious"],
 		"attackSound": "machinegun"
@@ -332,7 +332,7 @@
         	"cost": 425,
         	"requiredTech": "Robotics",
 		"upgradesTo": "Nexus",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Smart Materials",
 		"requiredResource": "Uranium",
         	"uniques": ["Can carry [4] [Aircraft] units", "[40]% chance to intercept air attacks"]
     	},
@@ -411,7 +411,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 110,
-		"cost": ,//Need Organic Infantry
+		"cost": 750,
 		"requiredTech": "Biomodification",
 		"uniques": ["Heals [25] damage if it kills a unit","May enter foreign tiles without open borders"],
 		"promotions": ["March","Amphibious"],
@@ -424,6 +424,8 @@
 		"strength": 80,
 		"cost": 725,
 		"requiredTech": "Designer Lifeforms",
+		"upgradesTo": "Bio-Titan",
+		"obsoleteTech": "Terraforming",
 		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost"],
 		"promotions": ["March","Volley"],
 		"attackSound": "machinegun" //zombie grunt
@@ -490,6 +492,8 @@
         	"rangedStrength": 100,
         	"cost": 525,
         	"requiredTech": "Implants",
+		"upgradesTo": "Biodrone",
+		"obsoleteTech": "Terraforming",
 		"uniques": ["Can move after attacking"],
 		"promotions": ["Indirect Fire","March"],
         	"attackSound": "machinegun"
@@ -515,11 +519,103 @@
         	"range": 3,
         	"cost": 525,
         	"requiredTech": "Microscale Engineering",
+		"upgradesTo": "Crawler",
+		"obsoleteTech": "Hyperstructures",
 		"requiredResource": ["Nanomaterial","Uranium"],
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [2] [Missile] units"],
 		"promotions": [ "Indirect Fire"],
        		"attackSound": "artillery"
     	},
+	{
+		"name": "Nanohive",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 100,
+		"cost": 700,
+		"requiredTech": "Nanotechnology",
+		"upgradesTo": "Nexus",
+		"requiredResource": "Nanomaterial",
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
+	},
+		{
+        	"name": "Nexus",
+        	"unitType": "Helicopter",
+        	"movement": 5,
+        	"strength": 120,
+		"interceptRange": 4,
+        	"cost": 825,
+        	"requiredTech": "Smart Materials",
+		"requiredResource": ["Nanomaterial","Uranium"],
+        	"uniques": [ "[40]% chance to intercept air attacks","No defensive terrain bonus","Ignores terrain cost","Can carry [4] [Missile] units","Can carry [4] [Aircraft] units"],
+		"promotions": ["Cover I"],
+        	"attackSound": "tankshot"
+   	},
+		{
+		"name": "Organic Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 100,
+		"cost": 550,
+		"requiredTech": "Implants",
+		"upgradesTo": "Biotrooper",
+		"obsoleteTech": "Biomodification",
+		"uniques": ["May enter foreign tiles without open borders"],
+		"promotions": ["Amphibious"],
+		"attackSound": "machinegun"
+	},
+		{
+		"name": "Robot Infantry",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 110,
+		"cost": ,//
+		"requiredTech": "Artificial Intelligence",
+		"attackSound": "machinegun"
+	},
+		{
+        	"name": "Suborbital Bomber",
+        	"unitType": "Bomber",
+        	"strength": 110,
+        	"rangedStrength": 110,
+       		"range": 30,
+        	"cost": ,//
+        	"requiredTech": "Nuclear Fusion",
+        	"requiredResource": "Nanomaterial",
+        	"uniques": ["Damage taken from interception reduced by [70]%","Cannot be carried by [Carrier] units","[+4] Sight","Can see over obstacles"],
+		"promotions": ["Evasion"],
+        	"attackSound": "bombing"
+    },
+		{
+		"name": "Triceratops",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 100,
+		"cost": ,//
+		"requiredTech": "Designer Lifeforms",
+		"promotions": ["Cover I"],
+		"attackSound": "machinegun" //zombie grunt
+	},
+		{
+		"name": "T. Rex",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 120,
+		"cost": ,//
+		"requiredTech": "Designer Lifeforms",
+		"attackSound": "machinegun" //zombie grunt
+	},
+		{
+		"name": "Velociraptor",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 90,
+		"cost": ,//
+		"requiredTech": "Designer Lifeforms",
+		"uniques": ["Can move after attacking","Ignores terrain cost"],
+		"attackSound": "machinegun" //zombie grunt
+	},
 	
 
 
