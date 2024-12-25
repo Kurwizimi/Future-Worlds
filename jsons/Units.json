@@ -102,7 +102,7 @@
         	"requiredTech": "Combustion", 
 		"upgradesTo": "Missile Destroyer",
         	"obsoleteTech": "Particle Physics",
-        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>",],
+        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>"],
         	"attackSound": "shipguns"
     },
 		{
@@ -158,7 +158,7 @@
         	"requiredTech": "Electronics",
 		"upgradesTo": "Supercarrier",
         	"obsoleteTech": "Robotics",
-        	"uniques": ["Cannot attack","Can carry [2] [Aircraft] units",]
+        	"uniques": ["Cannot attack","Can carry [2] [Aircraft] units"]
     },
 		{
         	"name": "Jet Fighter",
