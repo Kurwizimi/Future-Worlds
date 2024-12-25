@@ -473,6 +473,17 @@
 	//Genoswarm for the Bio-titan
 	//Just need to find a way to code for it
 		{
+        	"name": "Giant Death Robot",
+        	"unitType": "Armored",
+        	"movement": 5,
+        	"strength": 150,
+        	"cost": 425,
+        	"requiredTech": "Adamantium",
+        	"requiredResource": "Nanomaterial",
+       	 	"uniques": ["Can move after attacking","No defensive terrain bonus"],
+        	"attackSound": "gdrAttack"
+    },
+		{
         	"name": "Hovertank",
         	"unitType": "Helicopter",
         	"movement": 6,
