@@ -1,14 +1,84 @@
 [
 	//Information era
-	{
+		{
 		"name": "Autoplant",
-		"cost": ,
+		"cost": 660,
 		"hurryCostModifier": 160,
 		"production": 10,
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+1 Gold] from every [E-Commerce Server]","Only available <in this city> <if [Biofactory] is not constructed>"
-			    ,"Only available <in this city> <if [Genejack Facility] is not constructed>","Only available <in this city> <if [Biogenesis Pod] is not constructed>"],
+		"uniques": ["[+1 Gold] from every [E-Commerce Server]", "Only available <in cities without a [Genejack Facility]>","Only available <in cities without a [Biofactory]>","Only available <in cities without a [Biogenesis Pod]>"],
 		"requiredBuilding": "Factory",
-		"requiredTech": "Engineering"
-	}
+		"requiredTech": "Distributed Computing"
+	},
+		{
+		"name": "Aquaculture Lab",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"specialistSlots": {"Scientist": 1},
+		"uniques": ["[+1 Food, +1 Gold] from [Fishing Boats] tiles [in this city]", "Only available <in cities without a [Undersea Mining Platform]>"],
+		"requiredBuilding": "Lighthouse",
+		"requiredTech": "Cloning"
+	},
+		{
+		"name": "Cloning Lab",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"uniques": ["[+2 Food] from [Cattle] tiles [in this city]","[+2 Food] from [Sheep] tiles [in this city]","[+2 Food] from [Horses] tiles [in this city]","[15]% Food is carried over after population increases [in this city]",
+			    "Only available <in cities without a [Vertical Farm]>", "Only available <in cities without a [Mycoprotein Vats]>", "Only available <in cities without a [Orbital Habitat]>"],
+		"requiredBuilding": "Genemod Lab",
+		"requiredTech": "Cloning"
+	},
+		{
+		"name": "E-Commerce Server",
+		"cost": 500,
+		"hurryCostModifier": 160,
+		"gold" : 4,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["[+2 Gold] from each Trade Route <in this city>"],
+		"requiredBuilding": "Stock Exchange",
+		"requiredTech": "The Internet"
+	},
+		{
+		"name": "E-Commerce Server",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"culture" : 4,
+		"percentStatBonus": {"culture": 25},
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["[+2 Culture] from each Trade Route <in this city>"],
+		"requiredBuilding": "Broadcast Tower",
+		"requiredTech": "Memetics"
+	},
+		{
+		"name": "Genemod Lab",
+		"cost": 500,
+		"hurryCostModifier": 160,
+		"food" : 4,
+		"uniques": ["[+2 Food] from [Wheat] tiles [in this city]","[+2 Food] from [Deer] tiles [in this city]","[+2 Food] from [Banana] tiles [in this city]","[+2 Food] from [Fish] tiles [in this city]",
+			    "Only available <in cities without a [Vertical Farm]>", "Only available <in cities without a [Mycoprotein Vats]>", "Only available <in cities without a [Orbital Habitat]>"],
+		"requiredBuilding": "Genemod Lab",
+		"requiredTech": "Genetic Manipulation"
+	},
+	{
+		"name": "Geofront",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"cityStrength": 18,
+        	"cityHealth": 50,
+		"uniques": ["Population loss from nuclear attacks [-20]% [in this city]"],
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Artificial Environments"
+	},
+	{
+		"name": "Geothermal Plant",
+		"cost": 500,
+		"hurryCostModifier": 160,
+		"production" : 5,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["Must be next to [Mountain]","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Tidal Plant]>"],
+		"requiredBuilding": "Factory",
+		"requiredTech": "Environmentalism"
+	},
 ]
