@@ -61,7 +61,7 @@
         	"cost": 425,
         	"requiredTech": "Rocketry",
 		"upgradesTo": "Mech Artillery",
-		"obsoleteTech": "",//
+		"obsoleteTech": "Microscale Engineering",
 		"promotions": [ "Indirect Fire"],
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight"],
        		"attackSound": "artillery"
@@ -101,7 +101,7 @@
         	"cost": 375,
         	"requiredTech": "Combustion", 
 		"upgradesTo": "Missile Destroyer",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Particle Physics",
         	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>",],
         	"attackSound": "shipguns"
     },
@@ -145,7 +145,7 @@
         	"cost": 425,
         	"requiredTech": "Telecommunications",
 		"upgradesTo": "Cybersub",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Neural Interface",
         	"uniques": ["[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units"],
         	"attackSound": "torpedo"
     },
@@ -170,7 +170,7 @@
         	"cost": 425,
         	"requiredTech": "Lasers",
 		"upgradesTo": "Drone Fighter",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Cognitive Technology",
         	"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
         	"attackSound": "jetgun"
     },
@@ -197,7 +197,7 @@
         	"cost": 150,
         	"requiredTech": "Advanced Ballistics",
 		"upgradesTo": "Hypervelocity Missile",
-        	"obsoleteTech": "",//
+        	"obsoleteTech": "Microscale Engineering",
         	"uniques": ["[-100]% maintenance costs"],
         	"attackSound": "missile"
     },
@@ -570,7 +570,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 110,
-		"cost": ,//
+		"cost": 725,
 		"requiredTech": "Artificial Intelligence",
 		"attackSound": "machinegun"
 	},
@@ -580,7 +580,7 @@
         	"strength": 110,
         	"rangedStrength": 110,
        		"range": 30,
-        	"cost": ,//
+        	"cost": 625,
         	"requiredTech": "Nuclear Fusion",
         	"requiredResource": "Nanomaterial",
         	"uniques": ["Damage taken from interception reduced by [70]%","Cannot be carried by [Carrier] units","[+4] Sight","Can see over obstacles"],
@@ -592,29 +592,29 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 100,
-		"cost": ,//
+		"cost": 725,
 		"requiredTech": "Designer Lifeforms",
 		"promotions": ["Cover I"],
-		"attackSound": "machinegun" //zombie grunt
+		"attackSound": "machinegun"
 	},
 		{
 		"name": "T. Rex",
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 120,
-		"cost": ,//
+		"cost": 800,
 		"requiredTech": "Designer Lifeforms",
-		"attackSound": "machinegun" //zombie grunt
+		"attackSound": "machinegun" 
 	},
 		{
 		"name": "Velociraptor",
 		"unitType": "Sword",
 		"movement": 4,
 		"strength": 90,
-		"cost": ,//
+		"cost": 725,
 		"requiredTech": "Designer Lifeforms",
 		"uniques": ["Can move after attacking","Ignores terrain cost"],
-		"attackSound": "machinegun" //zombie grunt
+		"attackSound": "machinegun" 
 	},
 	
 
