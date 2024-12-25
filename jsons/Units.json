@@ -616,6 +616,17 @@
 		"uniques": ["Can move after attacking","Ignores terrain cost"],
 		"attackSound": "machinegun" 
 	},
+	{
+		"name": "XCOM Squad",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 120,
+		"cost": 400,
+		"requiredResource": "Nanomaterial",
+		"requiredTech": "Nanotechnology",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","No movement cost to pillage"],
+		"attackSound": "machinegun"
+	},
 	
 
 
