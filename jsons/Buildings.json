@@ -1,13 +1,14 @@
 [
-
+	//Information era
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
+		"name": "Autoplant",
+		"cost": ,
 		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"production": 10,
+		"specialistSlots": {"Engineer": 1},
+		"uniques": ["[+1 Gold] from every [E-Commerce Server]","Only available <in this city> <if [Biofactory] is not constructed>"
+			    ,"Only available <in this city> <if [Genejack Facility] is not constructed>","Only available <in this city> <if [Biogenesis Pod] is not constructed>"],
+		"requiredBuilding": "Factory",
 		"requiredTech": "Engineering"
 	}
 ]
