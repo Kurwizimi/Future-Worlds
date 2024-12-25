@@ -401,7 +401,7 @@
 		"strength": 140,
 		"cost": 1125,
 		"requiredTech": "Terraforming",
-		"requiredResource": ["Nanomaterial","Uranium"],
+		"requiredResource": "Nanomaterial",
 		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage"],
 		"promotions": ["March","Volley"],
 		"attackSound": "machinegun" //zombie grunt
@@ -439,7 +439,7 @@
         	"range": 4,
         	"cost": 925,
         	"requiredTech": "Hyperstructures",
-		"requiredResource": ["Nanomaterial","Uranium"],
+		"requiredResource": "Nanomaterial"
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [3] [Missile] units","No movement cost to pillage"],
 		"promotions": [ "Indirect Fire"],
        		"attackSound": "artillery"
@@ -521,7 +521,7 @@
         	"requiredTech": "Microscale Engineering",
 		"upgradesTo": "Crawler",
 		"obsoleteTech": "Hyperstructures",
-		"requiredResource": ["Nanomaterial","Uranium"],
+		"requiredResource": "Nanomaterial",
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [2] [Missile] units"],
 		"promotions": [ "Indirect Fire"],
        		"attackSound": "artillery"
@@ -547,7 +547,7 @@
 		"interceptRange": 4,
         	"cost": 825,
         	"requiredTech": "Smart Materials",
-		"requiredResource": ["Nanomaterial","Uranium"],
+		"requiredResource": "Nanomaterial",
         	"uniques": [ "[40]% chance to intercept air attacks","No defensive terrain bonus","Ignores terrain cost","Can carry [4] [Missile] units","Can carry [4] [Aircraft] units"],
 		"promotions": ["Cover I"],
         	"attackSound": "tankshot"
