@@ -148,4 +148,39 @@
 		"requiredBuilding": "Military Academy",
 		"requiredTech": "Memetics"
 	},
+
+	//Future era
+
+	//Areospace complex
+		{
+		"name": "AI Network",
+		"cost": ,
+		"hurryCostModifier": 160,
+		"science" : 6,
+		"culture" : 6,
+		"uniques": ["[+1 Production, +1 Gold] from [Support Node] tiles [in this city]","[+1 Science, +1 Culture] from every [AI Network] <in [in all cities] cities>",
+			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub]>", "Only available <in cities without a [Metroplex Hub]>"],
+		"requiredBuilding": "Network Backbone",
+		"requiredTech": "Artificial Intelligence"
+	},
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 ]
