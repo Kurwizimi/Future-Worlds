@@ -95,14 +95,14 @@
 	},
 		{
 		"name": "Nanomaterial Plant",
-		"cost": ,
+		"cost": 660,
 		"hurryCostModifier": 160,
 		"uniques": ["[+2 Production] from [Oil] tiles [in this city]","[+2 Production] from [Coal] tiles [in this city]", "Provides [2] [Nanomaterial]"],
 		"requiredTech": "Nanomaterials"
 	},
 		{
 		"name": "Research Server",
-		"cost": ,
+		"cost": 660,
 		"hurryCostModifier": 160,
 		"science" : 4,
 		"specialistSlots": {"Scientist": 1},
