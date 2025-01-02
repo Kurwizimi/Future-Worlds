@@ -163,6 +163,38 @@
 		"requiredBuilding": "Network Backbone",
 		"requiredTech": "Artificial Intelligence"
 	},
+	//Bioenhancement Centre
+		{
+		"name": "Biofactory",
+		"cost": ,
+		"hurryCostModifier": 160,
+		"uniques": ["[+1 Production] from [Plains] tiles [in this city]","[+1 Production] from [Grassland] tiles [in this city]",
+			    "Only available <in cities without a [Autoplant]>", "Only available <in cities without a [Drone Hive]>", "Only available <in cities without a [Utility Fog Generator]>"],
+		"requiredBuilding": "Factory",
+		"requiredTech": "Ecotheory"
+	},
+		{
+		"name": "Biogenesis Pod",
+		"cost": ,
+		"hurryCostModifier": 160,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]",
+			    "Only available <in cities without a [Autoplant]>", "Only available <in cities without a [Drone Hive]>", "Only available <in cities without a [Utility Fog Generator]>"],
+		"requiredBuilding": "Factory",
+		"requiredTech": "Ecotheory"
+	},
+		{
+		"name": "Genemod Lab",
+		"cost": ,
+		"hurryCostModifier": 160,
+		"happiness" : 2,
+		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"science": 25},
+		"uniques": ["Only available <in cities with a [Genemod Lab]>","Only available <in cities without a [Vertical Farm]>", "Only available <in cities without a [Mycoprotein Vats]>", "Only available <in cities without a [Orbital Habitat]>"],
+		"requiredBuilding": "Implant Clinic",
+		"requiredTech": "Human Augmentation"
+	},
+		
 
 	
 
