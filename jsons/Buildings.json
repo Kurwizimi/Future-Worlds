@@ -393,10 +393,57 @@
 		"hurryCostModifier": 160,
 		"requiredResource": "Uranium", //SHould consume two uranium
 		"uniques": ["[+4 Production, +2 Gold] from [Aluminum] tiles [in this city]", "[+4 Production, +2 Gold] from [Uranium] tiles [in this city]", "Provides [6] [Nanomaterial]",
-			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility ]>", "Only available <in cities without a [Biogenesis Pod]>"],
+			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility]>", "Only available <in cities without a [Biogenesis Pod]>"],
 		"requiredBuilding": "Fusion Reactor",
 		"requiredTech": "Nanotechnology"
 	},
+
+	{
+		"name": "Birthing Pods",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"science": 25},
+		"happiness": 2,
+		"uniques": ["Only available <in cities without a [Vertical Farm]>", "Only available <in cities without a [Mycoprotein Vats]>", "Only available <in cities without a [Orbital Habitat]>",],
+		"requiredBuilding": "Genemod Lab",
+		"requiredTech": "Human Augmentation"
+	},
+	{
+		"name": "Brain Unploading Facility",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"uniques": ["[-25]% growth [in this city]", "[+2 Science, +2 Production, +2 Gold, +2 Culture, +2 Faith] per [4] population [in this city]",
+			    "Only available <in cities without a [Bioenhancement Cantre]>"],
+		"requiredBuilding": "Cyberclinic",
+		"requiredTech": "Digital Society"
+	},
+	{
+		"name": "Utility Fog Generator",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"production": 6,
+		"happiness": 2,
+		"cityStrength": 12,
+		"cityHealth": 100,
+		"uniques": ["[+20]% Production when constructing [All] buildings [in this city]", "Provides [4] [Nanomaterial]",
+			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility]>", "Only available <in cities without a [Biogenesis Pod]>"],
+		"requiredBuilding": "Drone Hive",
+		"requiredTech": "Smart Materials"
+	},
+	{
+		"name": "Metroplex Hub",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"specialistSlots": {"Merchant": 2},
+		"uniques": [ "[+1 Gold] per [2] population [in this city]", "[+1 Gold] from [Arcology] tiles [in this city]",
+			    "Only available <in cities without a [Network Backbone]>", "Only available <in cities without a [Telepresence Hub]>", "Only available <in cities without a [AI Network]>"],
+		"requiredBuilding": "Distribution Hub",
+		"requiredTech": "Hyperstructures"
+	},
+
+	
 	
 		
 
