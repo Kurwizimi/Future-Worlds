@@ -201,7 +201,7 @@
 		"name": "Coal Converter",
 		"cost": 660,
 		"hurryCostModifier": 160,
-		"uniques": ["[+2 Gold] from [Coal] tiles [in this city]",
+		"uniques": ["[+2 Gold] from [Coal] tiles [in this city]",  "Provides [2] [Nanomaterial]",
 			    "Must have an owned [Coal] within [3] tiles]", "Only available <in cities without a [Oil Converter]>"],
 		"requiredTech": "Microscale Engineering"
 	},
@@ -209,7 +209,7 @@
 		"name": "Coal Converter",
 		"cost": 660,
 		"hurryCostModifier": 160,
-		"uniques": ["[+2 Gold] from [Oil] tiles [in this city]",
+		"uniques": ["[+2 Gold] from [Oil] tiles [in this city]", "Provides [2] [Nanomaterial]",
 			    "Must have an owned [Oil] within [3] tiles]", "Only available <in cities without a [Coal Converter]>"],
 		"requiredTech": "Microscale Engineering"
 	},
@@ -288,6 +288,39 @@
 		"requiredBuilding": "research Lab",
 		"requiredTech": "Neural Interface"
 	},	
+	{
+		"name": "Drone Hive",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"production"; 8,
+		"specialistSlots": {"Engineer": 1},
+		"uniques": ["[+1 Production] from [Generator] tiles [in this city]","[+10]% Production when constructing [All] buildings [in this city]",
+			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility]>", "Only available <in cities without a [Biogenesis Pod]>"],
+		//+ Production towards  Automatons and Robot Infantry
+		"requiredBuilding": "Autoplant",
+		"requiredTech": "Autonomous Systems"
+	},
+	{
+		"name": "Network Backbone",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["[+1 Production] per [4] population [in this city]", "[+1 Production] from [Industrial Site] tiles [in this city]",
+			    "Only available <in cities without a [Network Backbone]>", "Only available <in cities without a [Telepresence Hub]>", "Only available <in cities without a [AI Network]>"],
+		"requiredBuilding": "Information Hub",
+		"requiredTech": "Nuclear Fusion"
+	},
+	{
+		"name": "Fusion Reactor",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"specialistSlots": {"Engineer": 2},
+		"percentStatBonus": {"production": 20},
+		"production": 7,
+		"uniques": ["[+1 Production] per [4] population [in this city]"],
+		"requiredBuilding": "Nuclear Plant",
+		"requiredTech": "Nuclear Fusion"
+	},
 		
 
 	
