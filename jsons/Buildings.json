@@ -144,7 +144,7 @@
 		"name": "VR Training Centre",
 		"cost": 660,
 		"hurryCostModifier": 160,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredBuilding": "Military Academy",
 		"requiredTech": "Memetics"
 	},
