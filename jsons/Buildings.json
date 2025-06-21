@@ -292,7 +292,7 @@
 		"name": "Drone Hive",
 		"cost": 660,
 		"hurryCostModifier": 160,
-		"production"; 8,
+		"production": 8,
 		"specialistSlots": {"Engineer": 1},
 		"uniques": ["[+1 Production] from [Generator] tiles [in this city]","[+10]% Production when constructing [All] buildings [in this city]",
 			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility]>", "Only available <in cities without a [Biogenesis Pod]>"],
@@ -322,6 +322,81 @@
 		"requiredTech": "Nuclear Fusion"
 	},
 	// Aerospace Complex
+	{
+		"name": "Orbital Habitat",
+		"cost": 660,
+		"hurryCostModifier": 160,
+		"gold": 2,
+		"uniques": ["[+1 Food] from every specialist [in this city]",
+			    "Only available <in cities without a [Ecosanctuary]>", "Only available <in cities without a [Genemod Lab]>", "Only available <in cities without a [Cloning Lab]>", "Only available <in cities without a [Transgenic Nursery]>"],
+		"requiredBuilding": "Space Station",
+		"requiredTech": "Arcologies"
+	},
+
+	{
+		"name": "Biogenesis Pod",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"gold": 2,
+		// +Production towards Mutant, Chimera, Bio Titan
+		// Land units gain Gengineered promotion
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]",
+			    "Only available <in cities without a [Ecosanctuary]>", "Only available <in cities without a [Genemod Lab]>", "Only available <in cities without a [Cloning Lab]>", "Only available <in cities without a [Transgenic Nursery]>"],
+		"requiredBuilding": "Biofactory",
+		"requiredTech": "Designer Lifeforms"
+	},
+	//Bioenhancement Centre
+	{
+		"name": "Genejack Facility",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"gold": 2,
+		"uniques": ["[+1 Gold] from [Grassland] tiles [in this city]", "[+1 Gold] from [Plains] tiles [in this city]", "[+1 Production] from [Desert] tiles [in this city]", "[+1 Production] from [Tundra] tiles [in this city]", "[+1 Production] from [Snow] tiles [in this city]", "Provides [1] [Nanomaterial]",
+			    "Only available <in cities without a [Autoplant]>", "Only available <in cities without a [Drone Hive]>", "Only available <in cities without a [utility Fog Generator]>", "Only available <in cities without a [Transgenic Nursery]>"],
+		"requiredBuilding": "Biofactory",
+		"requiredTech": "Designer Lifeforms"
+	},
+	{
+		"name": "Telepresence Hub",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"production" : 4,
+		"uniques": ["[+1 Production, +1 Gold] from every [Cyberclinic] ",
+			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub ]>", "Only available <in cities without a [Metroplex Hub ]>"],
+		"requiredBuilding": "Network Backbone",
+		"requiredTech": "Cybernetics"
+	},
+	{
+		"name": "AI Network",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"science" : 6,
+		"culture" : 6,
+		"uniques": ["[+1 Science, +1 Culture] from every [AI Network] ", "[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
+			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub ]>", "Only available <in cities without a [Metroplex Hub ]>"],
+		"requiredBuilding": "Network Backbone",
+		"requiredTech": "Artificial Intelligence"
+	},
+	{
+		"name": "Nanoforge",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]",
+			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility ]>", "Only available <in cities without a [Biogenesis Pod]>"],
+		"requiredBuilding": "Autoplant",
+		"requiredTech": "Nanotechnology"
+	},
+	{
+		"name": "Nucleonic Foundry",
+		"cost": 780,
+		"hurryCostModifier": 160,
+		"requiredResource": "Uranium", //SHould consume two uranium
+		"uniques": ["[+4 Production, +2 Gold] from [Aluminum] tiles [in this city]", "[+4 Production, +2 Gold] from [Uranium] tiles [in this city]", "Provides [6] [Nanomaterial]",
+			    "Only available <in cities without a [Biofactory]>", "Only available <in cities without a [Genejack Facility ]>", "Only available <in cities without a [Biogenesis Pod]>"],
+		"requiredBuilding": "Fusion Reactor",
+		"requiredTech": "Nanotechnology"
+	},
 	
 		
 
