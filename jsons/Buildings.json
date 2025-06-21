@@ -206,11 +206,11 @@
 		"requiredTech": "Microscale Engineering"
 	},
 	{
-		"name": "Coal Converter",
+		"name": "Oil Converter",
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"uniques": ["[+2 Gold] from [Oil] tiles [in this city]", "Provides [2] [Nanomaterial]",
-			    "Must have an owned [Oil] within [3] tiles]", "Only available <in cities without a [Coal Converter]>"],
+			    "Must have an owned [Oil] within [3] tiles", "Only available <in cities without a [Coal Converter]>"],
 		"requiredTech": "Microscale Engineering"
 	},
 	{
@@ -285,7 +285,7 @@
 		"percentStatBonus": {"gold": 15},
 		"percentStatBonus": {"production": 15},
 		"uniques": ["Only available <in cities without a [Bioenhancement Centre]>"],
-		"requiredBuilding": "research Lab",
+		"requiredBuilding": "Research Lab",
 		"requiredTech": "Neural Interface"
 	},	
 	{
@@ -301,7 +301,7 @@
 		"requiredTech": "Autonomous Systems"
 	},
 	{
-		"name": "Network Backbone",
+		"name": "Distribution Hub",
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"specialistSlots": {"Engineer": 2},
@@ -372,7 +372,7 @@
 		"cost": 780,
 		"hurryCostModifier": 160,
 		"production" : 4,
-		"uniques": ["[+1 Production, +1 Gold] from every [Cyberclinic] ",
+		"uniques": ["[+1 Gold] from every [Cyberclinic]","[+1 Production] from every [Cyberclinic]",
 			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub ]>", "Only available <in cities without a [Metroplex Hub ]>"],
 		"requiredBuilding": "Network Backbone",
 		"requiredTech": "Cybernetics"
@@ -383,7 +383,7 @@
 		"hurryCostModifier": 160,
 		"science" : 6,
 		"culture" : 6,
-		"uniques": ["[+1 Science, +1 Culture] from every [AI Network] ", "[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
+		"uniques": ["[+1 Science] from every [AI Network] ", "[+1 Culture] from every [AI Network] ","[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
 			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub ]>", "Only available <in cities without a [Metroplex Hub ]>"],
 		"requiredBuilding": "Network Backbone",
 		"requiredTech": "Artificial Intelligence"
