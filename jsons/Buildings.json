@@ -579,6 +579,71 @@
         "quote": ""
 	},
 
+	//Hyperstructures
+
+	{
+        "name": "Bionic Tower",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 2 },
+	"uniques": ["[-50]% Food consumption by specialists [in all cities]", "[-50]% Unhappiness from [Specialists] [in all cities]", "Must be next to [Coast]",
+			"Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+        "requiredTech": "Human Augmentation",
+        "quote": ""
+	},
+	{
+        "name": "Buenos Aires Forum",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 2 },
+		//Golden Age Points for every pop. in this city
+	"uniques": ["Empire enters golden age", "[+50]% Golden Age length", "Must be next to [River]",
+			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+        "requiredTech": "Hyperstructures",
+        "quote": ""
+	},
+	{
+        "name": "Floating Islands",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 3 },
+	"uniques": ["[+3 Culture, +3 Gold] from [Coast] tiles [in this city]", "[+3 Culture, +3 Gold] from [Ocean] tiles [in this city]", "[+2 Culture, +2 Gold, +1 Food, +1 Production] from [Atoll] tiles [in this city]", "Must be next to [Coast]",
+			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+        "requiredTech": "Terraforming",
+        "quote": ""
+	},
+	{
+        "name": "Shimizu Mega City Pyramid",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 3 },
+	"production": 20,
+	"gold": 20,
+	"science": 20,
+	"uniques": ["[+2 Happiness] from every [Autoplant]", "[+2 Happiness] from every [Drone Hive]", "Must be next to [Coast]",
+			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+        "requiredTech": "Digital Society",
+        "quote": ""
+	},
+	{
+        "name": "Sky City",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 2 },
+	"uniques": ["[+4 Food, +4 Gold, +2 Happiness] from every [Vertical Farm]", "Gain a free [Utility Fog Generator] [in this city]", 
+			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Ultima Tower]>"],
+        "requiredTech": "Hyperstructures",
+        "quote": ""
+	},
+	{
+        "name": "Ultima Tower",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 2 },
+	"happiness": 10,
+	"uniques": ["[+2] population [in all cities]", 
+			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>"],
+        "requiredTech": "Hyperstructures",
+        "quote": ""
+	},
+	
+	
+
+
 
 
 	
