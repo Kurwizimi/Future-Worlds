@@ -202,7 +202,7 @@
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"uniques": ["[+2 Gold] from [Coal] tiles [in this city]",  "Provides [2] [Nanomaterial]",
-			    "Must have an owned [Coal] within [3] tiles]", "Only available <in cities without a [Oil Converter]>"],
+			    "Must have an owned [Coal] within [3] tiles", "Only available <in cities without a [Oil Converter]>"],
 		"requiredTech": "Microscale Engineering"
 	},
 	{
@@ -383,7 +383,7 @@
 		"hurryCostModifier": 160,
 		"science" : 6,
 		"culture" : 6,
-		"uniques": ["[+1 Science] from every [AI Network] ", "[+1 Culture] from every [AI Network] ","[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
+		"uniques": ["[+1 Science] from every [AI Network]", "[+1 Culture] from every [AI Network]","[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
 			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub ]>", "Only available <in cities without a [Metroplex Hub ]>"],
 		"requiredBuilding": "Network Backbone",
 		"requiredTech": "Artificial Intelligence"
@@ -466,7 +466,7 @@
 	{
         "name": "Helios Microwave Power Satellite",
         "isWonder": true,
-	"greatPersonPoints": { "Great Engineer": 2 },
+	"greatPersonPoints": {"Great Engineer": 2},
 	"uniques": ["[+1 Gold, +1 Production] from [Desert] tiles [in this city]", "[+15]% [Production] <in cities with a [Solar Plant]>","Gain a free [Solar Plant] [in this city]", "Must be next to [Desert]"],
         "requiredTech": "High-Energy Physics",
         "quote": ""
@@ -558,7 +558,7 @@
         "name": "Skynet",
         "isWonder": true,
 	"uniques": ["[+10]% Strength <for [All] units>"],
-        "requiredTech": "Artificial Inteligence",
+        "requiredTech": "Artificial Intelligence",
         "quote": ""
 	},
 	{
@@ -574,7 +574,7 @@
         "isWonder": true,
 	"greatPersonPoints": { "Great Artist": 2 },
 	"percentStatBonus": {"culture": 75},
-	"uniques": ["Free [Great Artist] appears", "Comment[Its Hatsune Miku!]"],
+	"uniques": ["Free [Great Artist] appears", "Comment [Its Hatsune Miku!]"],
         "requiredTech": "Cognitive Technology",
         "quote": ""
 	},
