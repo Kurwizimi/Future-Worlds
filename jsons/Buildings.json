@@ -459,7 +459,7 @@
         "name": "Enrichment Centre",
         "isWonder": true,
 	"percentStatBonus": {"science": 100},
-	"uniques": ["[+1 Scince] per [1] population [in this city]"],
+	"uniques": ["[+1 Science] per [1] population [in this city]"],
         "requiredTech": "Particle Physics",
         "quote": ""
 	},
@@ -498,10 +498,87 @@
 	"gold": 3,
 	"culture": 2,
 	"happiness": 4,
-	"uniques": ["[+1 Gold] from every [Broadcast Tower]", "[+1 Culture] from every [Broadcast Tower]",],
+	"uniques": ["[+1 Gold] from every [Broadcast Tower]", "[+1 Culture] from every [Broadcast Tower]"],
         "requiredTech": "Memetics",
         "quote": ""
 	},
+
+	{
+        "name": "Angelnet",
+        "isWonder": true,
+	"uniques": ["[+2 Happiness, +6 Production, +2 Gold] from every [Utility Fog Generator]", "Gain a free [Utility Fog Generator] [in this city]"],
+        "requiredTech": "Smart Materials",
+        "quote": ""
+	},
+	{
+        "name": "Citadel Station",
+        "isWonder": true,
+	"uniques": ["[+2 Gold, +2 Production] from every [Engineer]", "[+2 Gold, +2 Science] from every [Scientist]"],
+        "requiredTech": "Energy Theory",
+        "quote": ""
+	},
+	{
+        "name": "Digital Emancipation",
+        "isWonder": true,
+	"uniques": ["[+8 Production, +6 Gold] from every [Drone Hive]", "[+1 Science, +1 Production, +1 Gold, +1 Culture] per [4] population [in all cities] <in cities with a [Brain Uploading Facility]>", "[+6 Science, +6 Culture, +6 Gold] from every [AI Network]"],
+        "requiredTech": "Digital Society",
+        "quote": ""
+	},
+	{
+        "name": "Kalt Geymsla Data Haven",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 2 },
+	"uniques": ["[+2 Gold] from every [Server Hub]", "[+2 Culture, +2 Science] from [Tundra] tiles [in this city]",  "[+2 Culture, +2 Science] from [Snow] tiles [in this city]", "Must be next to [Tundra]"],
+        "requiredTech": "Neural Interface",
+        "quote": ""
+	},
+	{
+        "name": "Mnemosyne Facility",
+        "isWonder": true,
+	"uniques": ["New [Military] units start with [35] XP [in this city]"],
+        "requiredTech": "Cybernetics",
+        "quote": ""
+	},
+	{
+        "name": "Nephilim Gene Template",
+        "isWonder": true,
+	"uniques": ["[+1 Science, +1 Production, +1 Gold] per [2] population [in all cities]", "[+2 Happiness] from every [Genemod Lab]"],
+        "requiredTech": "Human Augmentation",
+        "quote": ""
+	},
+	{
+        "name": "Orbital Refinery",
+        "isWonder": true,
+	"uniques": ["[+2 Production] from every [Factory]", "[+2 Production] from every [Nanomaterial Plant]", "Provides [12] [Nanamaterial]"],
+        "requiredTech": "Human Augmentation",
+        "quote": ""
+	},
+	//Pholus Mutagen
+	{
+        "name": "Skynet",
+        "isWonder": true,
+	"uniques": ["[+10]% Strength <for [All] units>"],
+        "requiredTech": "Artificial Inteligence",
+        "quote": ""
+	},
+	{
+        "name": "Utsäde Gene Vault",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 2 },
+	"uniques": ["[+2 Science] from every [Nature Preserve]", "[+2 Gold] from every [Genocentre]", "[+2 Culture] from every [Eco-Commune]", ],
+        "requiredTech": "Ecotheory",
+        "quote": ""
+	},
+	{
+        "name": "Virtual Idol",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Artist": 2 },
+	"percentStatBonus": {"culture": 75},
+	"uniques": ["Free [Great Artist] appears", "Comment[Its Hatsune Miku!]"],
+        "requiredTech": "Cognitive Technology",
+        "quote": ""
+	},
+
 
 
 	
