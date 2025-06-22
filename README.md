@@ -1,3 +1,3 @@
 # Future Worlds
 
-A replica of Bounctmisha's Future Worlds mod.
+A replica of Bounctmischa's Future Worlds mod.
