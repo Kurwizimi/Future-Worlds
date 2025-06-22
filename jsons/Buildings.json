@@ -677,7 +677,7 @@
 		"isNationalWonder": true,
 		//Consumes two Nanomaterial
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 GOld] from every [Comm Module]", "Only available <in cities with a [Spacde Station]>", "Cost increases by [30] per owned city"],
+		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 Gold] from every [Comm Module]", "Only available <in cities with a [Spacde Station]>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Energy Theory"
 	},
 	{
