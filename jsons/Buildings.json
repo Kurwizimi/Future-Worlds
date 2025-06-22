@@ -549,7 +549,7 @@
 	{
         "name": "Orbital Refinery",
         "isWonder": true,
-	"uniques": ["[+2 Production] from every [Factory]", "[+2 Production] from every [Nanomaterial Plant]", "Provides [12] [Nanamaterial]"],
+	"uniques": ["[+2 Production] from every [Factory]", "[+2 Production] from every [Nanomaterial Plant]", "Provides [12] [Nanomaterial]"],
         "requiredTech": "Human Augmentation",
         "quote": ""
 	},
@@ -565,7 +565,7 @@
         "name": "Utsäde Gene Vault",
         "isWonder": true,
 	"greatPersonPoints": { "Great Scientist": 2 },
-	"uniques": ["[+2 Science] from every [Nature Preserve]", "[+2 Gold] from every [Genocentre]", "[+2 Culture] from every [Eco-Commune]", ],
+	"uniques": ["[+2 Science] from every [Nature Preserve]", "[+2 Gold] from every [Genocentre]", "[+2 Culture] from every [Eco-Commune]"],
         "requiredTech": "Ecotheory",
         "quote": ""
 	},
