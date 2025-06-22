@@ -1,9 +1,37 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
 
-* [alien] (https://thenounproject.com/term/alien/1820539) by Minh Do
-* [raygun] (https://thenounproject.com/term/raygun/11236/) by Dominik Grob
-* [vr] (https://thenounproject.com/term/vr/2334639) by Mahmure Alp
-* [Human cloning ] (https://thenounproject.com/term/human-cloning/1581556/) by Gan Khoon Lay 
+ - Nanomaterial - graphene technology by sachin modgekar from <a href="https://thenounproject.com/browse/icons/term/graphene-technology/" target="_blank" title="graphene technology Icons">Noun Project</a> (CC BY 3.0)
 
-The following is from [freesound] (https://freesound.org) licensed under the Creative Commons 0 License. 
-* [phaser] modified from (https://freesound.org/people/IanStarGem/sounds/341831/) by IanStarGem
+
+- Evironmentalism - environmental conservation by mangunkarsa from <a href="https://thenounproject.com/browse/icons/term/environmental-conservation/" target="_blank" title="environmental conservation Icons">Noun Project</a> (CC BY 3.0)
+- Genetic Manipulation - genetic engineering by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/genetic-engineering/" target="_blank" title="genetic engineering Icons">Noun Project</a> (CC BY 3.0)
+- Cloning - cloning by Kamin Ginkaew from <a href="https://thenounproject.com/browse/icons/term/cloning/" target="_blank" title="cloning Icons">Noun Project</a> (CC BY 3.0)
+- Memetics - Sunglasses by Zach Bogart from <a href="https://thenounproject.com/browse/icons/term/sunglasses/" target="_blank" title="Sunglasses Icons">Noun Project</a> (CC BY 3.0)
+- Distributed computing - distributed computing by Icon Designer from <a href="https://thenounproject.com/browse/icons/term/distributed-computing/" target="_blank" title="distributed computing Icons">Noun Project</a> (CC BY 3.0)
+- Nanomaterials - nanotech by SURA DADI from <a href="https://thenounproject.com/browse/icons/term/nanotech/" target="_blank" title="nanotech Icons">Noun Project</a> (CC BY 3.0)
+- High energy Physics - plasma by bsd studio from <a href="https://thenounproject.com/browse/icons/term/plasma/" target="_blank" title="plasma Icons">Noun Project</a> (CC BY 3.0)
+- Artifitial encironments - Plant by Corner Pixel from <a href="https://thenounproject.com/browse/icons/term/plant/" target="_blank" title="Plant Icons">Noun Project</a> (CC BY 3.0)
+- Ecotheory - Plant by Corner Pixel from <a href="https://thenounproject.com/browse/icons/term/plant/" target="_blank" title="Plant Icons">Noun Project</a> (CC BY 3.0)
+- Implants - neural implant by Ali Nur Rohman from <a href="https://thenounproject.com/browse/icons/term/neural-implant/" target="_blank" title="neural implant Icons">Noun Project</a> (CC BY 3.0)
+- Cognitive technology - brain chip by WR Graphic Garage from <a href="https://thenounproject.com/browse/icons/term/brain-chip/" target="_blank" title="brain chip Icons">Noun Project</a> (CC BY 3.0)
+- Microscale engineering - micro services by Fusion Experience from <a href="https://thenounproject.com/browse/icons/term/micro-services/" target="_blank" title="micro services Icons">Noun Project</a> (CC BY 3.0)
+- Orbital development - Rocket orbit by Agan24 from <a href="https://thenounproject.com/browse/icons/term/rocket-orbit/" target="_blank" title="Rocket orbit Icons">Noun Project</a> (CC BY 3.0)
+- Transgenics - transgenic by Arkinasi from <a href="https://thenounproject.com/browse/icons/term/transgenic/" target="_blank" title="transgenic Icons">Noun Project</a> (CC BY 3.0)
+- Neural interface - Brain Machine Interface by ProSymbols from <a href="https://thenounproject.com/browse/icons/term/brain-machine-interface/" target="_blank" title="Brain Machine Interface Icons">Noun Project</a> (CC BY 3.0)
+- Autonomous systems - robotics engineering by Suwarjo from <a href="https://thenounproject.com/browse/icons/term/robotics-engineering/" target="_blank" title="robotics engineering Icons">Noun Project</a> (CC BY 3.0)
+- Arcologies - arcology by Side Project from <a href="https://thenounproject.com/browse/icons/term/arcology/" target="_blank" title="arcology Icons">Noun Project</a> (CC BY 3.0)
+- Designer lifeforms - Cells by LUTFI GANI AL ACHMAD from <a href="https://thenounproject.com/browse/icons/term/cells/" target="_blank" title="Cells Icons">Noun Project</a> (CC BY 3.0)
+- Biomodification - gene editing by Hermanto from <a href="https://thenounproject.com/browse/icons/term/gene-editing/" target="_blank" title="gene editing Icons">Noun Project</a> (CC BY 3.0)
+- Cybernetics - Cybernetics by Haider Ali from <a href="https://thenounproject.com/browse/icons/term/cybernetics/" target="_blank" title="Cybernetics Icons">Noun Project</a> (CC BY 3.0)
+- Artificial intelligence - Artificial Intelligence by Chintuza from <a href="https://thenounproject.com/browse/icons/term/artificial-intelligence/" target="_blank" title="Artificial Intelligence Icons">Noun Project</a> (CC BY 3.0)
+- nanotechnology - nanotechnology by sugeng riyanto from <a href="https://thenounproject.com/browse/icons/term/nanotechnology/" target="_blank" title="nanotechnology Icons">Noun Project</a> (CC BY 3.0)
+- adamantium -
+- Terraforming - terraforming by Supanut Piyakanont from <a href="https://thenounproject.com/browse/icons/term/terraforming/" target="_blank" title="terraforming Icons">Noun Project</a> (CC BY 3.0)
+- Human augmentation - wearable technology by Hermanto from <a href="https://thenounproject.com/browse/icons/term/wearable-technology/" target="_blank" title="wearable technology Icons">Noun Project</a> (CC BY 3.0)
+- Digital Society - digital society by Kamin Ginkaew from <a href="https://thenounproject.com/browse/icons/term/digital-society/" target="_blank" title="digital society Icons">Noun Project</a> (CC BY 3.0)
+- Smart materials - smart materials by emiliolonardo_design from <a href="https://thenounproject.com/browse/icons/term/smart-materials/" target="_blank" title="smart materials Icons">Noun Project</a> (CC BY 3.0)
+- Energy theory - smart materials by emiliolonardo_design from <a href="https://thenounproject.com/browse/icons/term/smart-materials/" target="_blank" title="smart materials Icons">Noun Project</a> (CC BY 3.0)
+- Hyperstructures - smart materials by emiliolonardo_design from <a href="https://thenounproject.com/browse/icons/term/smart-materials/" target="_blank" title="smart materials Icons">Noun Project</a> (CC BY 3.0)
+- Homo superior - Human by Peleg Red from <a href="https://thenounproject.com/browse/icons/term/human/" target="_blank" title="Human Icons">Noun Project</a> (CC BY 3.0)
+- Computronium - https://thenounproject.com/icon/hexadecimal-11535/
+- Space Colonization - colony by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/colony/" target="_blank" title="colony Icons">Noun Project</a> (CC BY 3.0)
