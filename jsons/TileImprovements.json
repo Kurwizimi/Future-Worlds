@@ -1,25 +1,99 @@
 [
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  	{
+		"name": "Arcology",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh", "Hill"],
+		"food": 2,
+    "gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Arcologies",
+		"uniques": ["[+1 Gold, +1 Food] for each adjacent [City center]", "[+2 Gold] from [Coastal] tiles", "Gives a defensive bonus of [100]%", "Only available <with [0] to [0] neighboring [Arcology] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "A"
+	},
+  {
+		"name": "Communications Array",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh"],
+    "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mobile Tactics",
+    //+Science with Free Thought
+		"uniques": ["[+1 Science] <after discovering [Distributed Computing]>", "[+1 Culure] <after discovering [Memetics]>", "Only available <with [0] to [0] neighboring [Communications Array] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "C"
+	},
+   {
+		"name": "Eco-Commune",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Jungle", "Forest", "Marsh"],
+    "gold": 1,
+    "culture": 1,
+    "food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Memetics",
+		"uniques": ["[+1 Science] <after discovering [Biomodification]>", "[+1 Culture] from [Fresh water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "E"
+	},
+  //Fungal Growth
+  {
+		"name": "Generator",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh", "Hill"],
+    "gold": 2,
+    "production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Nanomaterials",
+		"uniques": ["[+1 Gold] <after discovering [Nanotechnology]>", "[+1 Gold] from [Fresh water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "G"
+	},
+  {
+		"name": "Genocentre",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh"],
+    "gold": 1,
+    "production": 2,
+    "food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Transgenics",
+		"uniques": [ "[+2 Production] from [Horses] tiles", "[+2 Production] from [Cattle] tiles", "[+2 Food] from [Sheep] tiles", "[+2 Food] from [Wheat] tiles", "Gives a defensive bonus of [100]%", "Only available <with [0] to [0] neighboring [Geocentre] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "G"
+	},
+  {
+		"name": "Hydroponics Dome",
+		"terrainsCanBeBuiltOn": ["Desert", "Tundra", "Snow", "Forest"],
+    "production": 1,
+    "food": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Artificial Environments",
+		"uniques": [ "[+1 Gold] <after discovering [Arcologies]>", "[+1 Food] from [Fresh water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "H"
+	},
+  {
+		"name": "Industrial Complex",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh"],
+    "production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Artificial Environments",
+		"uniques": [ "[+1 Gold, +1 Production] <after discovering [Microscale Engineering]>", "[+1 Food] from [Fresh water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "I"
+	},
+   {
+		"name": "Nature Preserve",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh"],
+    "culture": 1,
+    "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Artificial Environments",
+		"uniques": [ "[+1 Culture, +1 Gold] <after discovering [Ecotheory]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "N"
+	},
+  {
+		"name": "Support Node",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Jungle", "Forest", "Marsh"],
+		"production": 2,
+    "gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Autonomous Systems",
+    //+Gold with Commerce
+    //+Science with Free Thought
+    //Units heal Ten HP when healing next to it
+		"uniques": ["[+1 Gold, +1 Production] for each adjacent [City center]", "[+2 Production] from [Hill] tiles", "Gives a defensive bonus of [50]%", "Only available <with [0] to [0] neighboring [Support Node] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "S"
+	},
+  
 
 ]
