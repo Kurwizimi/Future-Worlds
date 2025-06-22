@@ -16,7 +16,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mobile Tactics",
     //+Science with Free Thought
-		"uniques": ["[+1 Science] <after discovering [Distributed Computing]>", "[+1 Culure] <after discovering [Memetics]>", "Only available <with [0] to [0] neighboring [Communications Array] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Science] <after discovering [Distributed Computing]>", "[+1 Culture] <after discovering [Memetics]>", "Only available <with [0] to [0] neighboring [Communications Array] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "C"
 	},
    {
