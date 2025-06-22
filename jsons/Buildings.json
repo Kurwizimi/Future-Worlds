@@ -454,6 +454,56 @@
 		"requiredTech": "Hyperstructures"
 	},
 
+	//Wonders
+	{
+        "name": "Enrichment Centre",
+        "isWonder": true,
+	"percentStatBonus": {"science": 100},
+	"uniques": ["[+1 Scince] per [1] population [in this city]"],
+        "requiredTech": "Particle Physics",
+        "quote": ""
+	},
+	{
+        "name": "Helios Microwave Power Satellite",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 2 },
+	"uniques": ["[+1 Gold, +1 Production] from [Desert] tiles [in this city]", "[+15]% [Production] <in cities with a [Solar Plant]>","Gain a free [Solar Plant] [in this city]", "Must be next to [Desert]"],
+        "requiredTech": "High-Energy Physics",
+        "quote": ""
+	},
+	{
+        "name": "Jurrasic Park",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 2 },
+	"gold": 6,
+	"science": 6,
+	"happiness": 6,
+	"uniques": ["[+6 Gold] from every [Stadium]", "[+6 Science] from every [Stadium]", "[+6 Happiness] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
+        "requiredTech": "Genetic Manipulation",
+        "quote": ""
+	},
+	{
+        "name": "Shanghai Tower",
+        "isWonder": true,
+	"specialistSlots": {"Merchant": 2},
+	"greatPersonPoints": { "Great Merchant": 2 },
+	"culture": 2,
+	"uniques": ["Gain [1500] [Gold]", "[+2 Gold] from every [Merchant]"],
+        "requiredTech": "Globalization",
+        "quote": ""
+	},
+	{
+        "name": "Burj Al-Arab",
+        "isWonder": true,
+	"gold": 3,
+	"culture": 2,
+	"happiness": 4,
+	"uniques": ["[+1 Gold] from every [Broadcast Tower]", "[+1 Culture] from every [Broadcast Tower]",],
+        "requiredTech": "Memetics",
+        "quote": ""
+	},
+
+
 	
 	
 		
