@@ -640,7 +640,55 @@
         "requiredTech": "Hyperstructures",
         "quote": ""
 	},
-	
+
+	//National Wonders
+	{
+		"name": "Borehole",
+		"cost": 125,
+		"isNationalWonder": true,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["[+15]% [Production] from every [Geothermal Plant]", "[+1 Production, +1 Gold] from every [Mine]", "Only available <in cities with a [Geothermal Plant]>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Autonomous Systems"
+	},
+	{
+		"name": "Central Command",
+		"cost": 125,
+		"isNationalWonder": true,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["[+6 Culture] from every [Information Hub]", "[+6 Production] from every [Distribution Hub]", "[+6 Gold] from every [Metroplex Hub]", "Only available <if [Information Hub] is constructed in all [non-[Puppeted]] cities>", "Only available <in [Capital] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Autonomous Systems"
+	},
+	{
+		"name": "Launch Facility",
+		"cost": 125,
+		"isNationalWonder": true,
+		//Consumes two Aluminium
+		"percentStatBonus": {"gold": 20},
+		"percentStatBonus": {"science": 20},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": ["[+15]% Production when constructing [Fighter] units [in this city]", "[+15]% Production when constructing [Bomber] units [in this city]", "[+15]% Production when constructing [Missile] units [in this city]", "[+15]% Production when constructing [Helicopter] units [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Stealth"
+	},
+	{
+		"name": "Moon Base",
+		"cost": 125,
+		"isNationalWonder": true,
+		//Consumes two Nanomaterial
+		"specialistSlots": {"Scientist": 2},
+		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 GOld] from every [Comm Module]", "Only available <in cities with a [Spacde Station]>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Energy Theory"
+	},
+	{
+		"name": "Particle Acelerator",
+		"cost": 125,
+		"isNationalWonder": true,
+		"science": 8,
+		"specialistSlots": {"Scientist": 3},
+		"uniques": ["Free [Great Scientist] appears", "[+2 Gold] from every [Academy]","[+2 Science] from every [Academy]  <after discovering [Artificial Intelligence]>", "[+2 Gold] from every [Academy]  <after discovering [Energy Theory]>", "Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Particle Physics"
+	},
 	
 
 
