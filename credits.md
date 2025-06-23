@@ -1,8 +1,8 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
-
+RESOURCES
  - Nanomaterial - graphene technology by sachin modgekar from <a href="https://thenounproject.com/browse/icons/term/graphene-technology/" target="_blank" title="graphene technology Icons">Noun Project</a> (CC BY 3.0)
 
-
+TECHS
 - Evironmentalism - environmental conservation by mangunkarsa from <a href="https://thenounproject.com/browse/icons/term/environmental-conservation/" target="_blank" title="environmental conservation Icons">Noun Project</a> (CC BY 3.0)
 - Genetic Manipulation - genetic engineering by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/genetic-engineering/" target="_blank" title="genetic engineering Icons">Noun Project</a> (CC BY 3.0)
 - Cloning - cloning by Kamin Ginkaew from <a href="https://thenounproject.com/browse/icons/term/cloning/" target="_blank" title="cloning Icons">Noun Project</a> (CC BY 3.0)
@@ -34,3 +34,33 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 - Homo superior - Human by Peleg Red from <a href="https://thenounproject.com/browse/icons/term/human/" target="_blank" title="Human Icons">Noun Project</a> (CC BY 3.0)
 - Computronium - https://thenounproject.com/icon/hexadecimal-11535/
 - Space Colonization - colony by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/colony/" target="_blank" title="colony Icons">Noun Project</a> (CC BY 3.0)
+
+TILE IMPROVEMENTS
+- Arcology - green house by Roundicons.com from <a href="https://thenounproject.com/browse/icons/term/green-house/" target="_blank" title="green house Icons">Noun Project</a> (CC BY 3.0)
+- Communication Array - Radio telescope by Asiah from <a href="https://thenounproject.com/browse/icons/term/radio-telescope/" target="_blank" title="Radio telescope Icons">Noun Project</a> (CC BY 3.0)
+- Eco-Commune - neighborhood by Eugene Dobrik from <a href="https://thenounproject.com/browse/icons/term/neighborhood/" target="_blank" title="neighborhood Icons">Noun Project</a> (CC BY 3.0)
+- Generator - power plants by izzul fikry from <a href="https://thenounproject.com/browse/icons/term/power-plants/" target="_blank" title="power plants Icons">Noun Project</a> (CC BY 3.0)
+- Genocentre - Genetics by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/genetics/" target="_blank" title="Genetics Icons">Noun Project</a> (CC BY 3.0)
+- Hydroponics Dome - Hydroponics by HDM from <a href="https://thenounproject.com/browse/icons/term/hydroponics/" target="_blank" title="Hydroponics Icons">Noun Project</a> (CC BY 3.0)
+- Industrial Complex - industrial automation by firufiati98 from <a href="https://thenounproject.com/browse/icons/term/industrial-automation/" target="_blank" title="industrial automation Icons">Noun Project</a> (CC BY 3.0)
+- Nature Preserve - hiking area sign by W Fully from <a href="https://thenounproject.com/browse/icons/term/hiking-area-sign/" target="_blank" title="hiking area sign Icons">Noun Project</a> (CC BY 3.0)
+- Support Node - group by Gregor Cresnar from <a href="https://thenounproject.com/browse/icons/term/group/" target="_blank" title="group Icons">Noun Project</a> (CC BY 3.0)
+
+  UNITS
+- Airborne Forces - Parachute by SISWANTORO from <a href="https://thenounproject.com/browse/icons/term/parachute/" target="_blank" title="Parachute Icons">Noun Project</a> (CC BY 3.0)]
+- Arsenal Ship - Ship by iejank from <a href="https://thenounproject.com/browse/icons/term/ship/" target="_blank" title="Ship Icons">Noun Project</a> (CC BY 3.0)
+- Drone UAV - Unmanned Aerial Vehicle by gravisio from <a href="https://thenounproject.com/browse/icons/term/unmanned-aerial-vehicle/" target="_blank" title="Unmanned Aerial Vehicle Icons">Noun Project</a> (CC BY 3.0)
+- Missile Destroyer - Battleship by Yair Cohen from <a href="https://thenounproject.com/browse/icons/term/battleship/" target="_blank" title="Battleship Icons">Noun Project</a> (CC BY 3.0)
+- Mutant - mud monster by Eucalyp from <a href="https://thenounproject.com/browse/icons/term/mud-monster/" target="_blank" title="mud monster Icons">Noun Project</a> (CC BY 3.0)
+- Power armmour Infantry - space marine by Robert Bjurshagen from <a href="https://thenounproject.com/browse/icons/term/space-marine/" target="_blank" title="space marine Icons">Noun Project</a> (CC BY 3.0)
+- Railgun Armor - Tank by 정현 이 from <a href="https://thenounproject.com/browse/icons/term/tank/" target="_blank" title="Tank Icons">Noun Project</a> (CC BY 3.0)
+- Special Forces - special operations by gravisio from <a href="https://thenounproject.com/browse/icons/term/special-operations/" target="_blank" title="special operations Icons">Noun Project</a> (CC BY 3.0)
+- Supercarrier - aircraft-carrier by swk from <a href="https://thenounproject.com/browse/icons/term/aircraft-carrier/" target="_blank" title="aircraft-carrier Icons">Noun Project</a> (CC BY 3.0)
+- VTOL - aircraft by iconfield from <a href="https://thenounproject.com/browse/icons/term/aircraft/" target="_blank" title="aircraft Icons">Noun Project</a> (CC BY 3.0)
+- Advanced Destroyer - warship by abdul wahhab from <a href="https://thenounproject.com/browse/icons/term/warship/" target="_blank" title="warship Icons">Noun Project</a> (CC BY 3.0)
+- Automaton - Gear by BabySark from <a href="https://thenounproject.com/browse/icons/term/gear/" target="_blank" title="Gear Icons">Noun Project</a> (CC BY 3.0)
+- Battlesuit - Robot by Lluisa Iborra from <a href="https://thenounproject.com/browse/icons/term/robot/" target="_blank" title="Robot Icons">Noun Project</a> (CC BY 3.0)
+- Biodrone - swarm robotics by diyah farida from <a href="https://thenounproject.com/browse/icons/term/swarm-robotics/" target="_blank" title="swarm robotics Icons">Noun Project</a> (CC BY 3.0)
+- Bio-Titan - titan by Avana Vana from <a href="https://thenounproject.com/browse/icons/term/titan/" target="_blank" title="titan Icons">Noun Project</a> (CC BY 3.0)
+- Bio-Trooper - bionics by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/bionics/" target="_blank" title="bionics Icons">Noun Project</a> (CC BY 3.0)
+- Chimera - Chimera by Studio Fibonacci from <a href="https://thenounproject.com/browse/icons/term/chimera/" target="_blank" title="Chimera Icons">Noun Project</a> (CC BY 3.0)
