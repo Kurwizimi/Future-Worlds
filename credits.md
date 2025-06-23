@@ -24,7 +24,6 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 - Biomodification - gene editing by Hermanto from <a href="https://thenounproject.com/browse/icons/term/gene-editing/" target="_blank" title="gene editing Icons">Noun Project</a> (CC BY 3.0)
 - Cybernetics - Cybernetics by Haider Ali from <a href="https://thenounproject.com/browse/icons/term/cybernetics/" target="_blank" title="Cybernetics Icons">Noun Project</a> (CC BY 3.0)
 - Artificial intelligence - Artificial Intelligence by Chintuza from <a href="https://thenounproject.com/browse/icons/term/artificial-intelligence/" target="_blank" title="Artificial Intelligence Icons">Noun Project</a> (CC BY 3.0)
-- nanotechnology - nanotechnology by sugeng riyanto from <a href="https://thenounproject.com/browse/icons/term/nanotechnology/" target="_blank" title="nanotechnology Icons">Noun Project</a> (CC BY 3.0)
 - adamantium -
 - Terraforming - terraforming by Supanut Piyakanont from <a href="https://thenounproject.com/browse/icons/term/terraforming/" target="_blank" title="terraforming Icons">Noun Project</a> (CC BY 3.0)
 - Human augmentation - wearable technology by Hermanto from <a href="https://thenounproject.com/browse/icons/term/wearable-technology/" target="_blank" title="wearable technology Icons">Noun Project</a> (CC BY 3.0)
