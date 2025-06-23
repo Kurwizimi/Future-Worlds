@@ -64,3 +64,19 @@ TILE IMPROVEMENTS
 - Bio-Titan - titan by Avana Vana from <a href="https://thenounproject.com/browse/icons/term/titan/" target="_blank" title="titan Icons">Noun Project</a> (CC BY 3.0)
 - Bio-Trooper - bionics by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/bionics/" target="_blank" title="bionics Icons">Noun Project</a> (CC BY 3.0)
 - Chimera - Chimera by Studio Fibonacci from <a href="https://thenounproject.com/browse/icons/term/chimera/" target="_blank" title="Chimera Icons">Noun Project</a> (CC BY 3.0)
+- Crawler -
+- Cybersub - Submarine by Anand Prahlad from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
+- Drone Fighter - switchblade uav by Alexander Skowalsky from <a href="https://thenounproject.com/browse/icons/term/switchblade-uav/" target="_blank" title="switchblade uav Icons">Noun Project</a> (CC BY 3.0)
+- Hovertank
+- Hybrid Drone - hybrid drone by Sachin Sachin from <a href="https://thenounproject.com/browse/icons/term/hybrid-drone/" target="_blank" title="hybrid drone Icons">Noun Project</a> (CC BY 3.0)
+- Hypervelocity Missile - missile by arista septiana dewi from <a href="https://thenounproject.com/browse/icons/term/missile/" target="_blank" title="missile Icons">Noun Project</a> (CC BY 3.0)
+- Mech artillery -
+- Nanohive - swarm robotic by Trimanggolo Mulyo from <a href="https://thenounproject.com/browse/icons/term/swarm-robotic/" target="_blank" title="swarm robotic Icons">Noun Project</a> (CC BY 3.0)
+- Organic Infantry - perfusion organ by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/perfusion-organ/" target="_blank" title="perfusion organ Icons">Noun Project</a> (CC BY 3.0)
+- Nexus - Hexagon center by Icons By Alfredo from <a href="https://thenounproject.com/browse/icons/term/hexagon-center/" target="_blank" title="Hexagon center Icons">Noun Project</a> (CC BY 3.0)
+- Robot infantry -
+- Suborbital Bomber - stealth by Tinashe Mugayi from <a href="https://thenounproject.com/browse/icons/term/stealth/" target="_blank" title="stealth Icons">Noun Project</a> (CC BY 3.0)
+- Triceratops - triceratops by tulpahn from <a href="https://thenounproject.com/browse/icons/term/triceratops/" target="_blank" title="triceratops Icons">Noun Project</a> (CC BY 3.0)
+- T. Rex - dinosaurus by ani rofiqah from <a href="https://thenounproject.com/browse/icons/term/dinosaurus/" target="_blank" title="dinosaurus Icons">Noun Project</a> (CC BY 3.0)
+- Velociraptor - Velociraptor by parkjisun from <a href="https://thenounproject.com/browse/icons/term/velociraptor/" target="_blank" title="Velociraptor Icons">Noun Project</a> (CC BY 3.0)
+- 
