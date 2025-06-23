@@ -1,33 +1,243 @@
 
 game.png
-size: 512, 128
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Breeders
   rotate: false
-  xy: 112, 4
+  xy: 482, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Holodeck
   rotate: false
-  xy: 220, 4
+  xy: 482, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Aliens
+ResourceIcons/Nanomaterial
   rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 688, 308
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Arcologies
+  rotate: false
+  xy: 482, 200
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Artificial Environments
+  rotate: false
+  xy: 590, 308
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Artificial Intelligence
+  rotate: false
+  xy: 698, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Autonomous Systems
+  rotate: false
+  xy: 482, 102
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Biomodification
+  rotate: false
+  xy: 796, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Cloning
+  rotate: false
+  xy: 894, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Cognitive Technology
+  rotate: false
+  xy: 992, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Computronium
+  rotate: false
+  xy: 1090, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Cybernetics
+  rotate: false
+  xy: 1178, 319
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+TechIcons/Designer Lifeforms
+  rotate: false
+  xy: 1188, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Digital Society
+  rotate: false
+  xy: 1286, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Distributed Computing
+  rotate: false
+  xy: 1384, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Ecotheory
+  rotate: false
+  xy: 1482, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Energy Theory
+  rotate: false
+  xy: 1580, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Environmentalism
+  rotate: false
+  xy: 1678, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Genetic Manipulation
+  rotate: false
+  xy: 1776, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/High-Energy Physics
+  rotate: false
+  xy: 1874, 416
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Homo Superior
+  rotate: false
+  xy: 482, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Human Augmentation
+  rotate: false
+  xy: 4, 36
+  size: 470, 470
+  orig: 470, 470
+  offset: 0, 0
+  index: -1
+TechIcons/Hyperstructures
+  rotate: false
+  xy: 580, 200
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Implants
+  rotate: false
+  xy: 580, 102
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Memetics
+  rotate: false
+  xy: 1275, 319
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+TechIcons/Microscale Engineering
+  rotate: false
+  xy: 580, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Nanomaterials
+  rotate: false
+  xy: 678, 210
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Neural Interface
+  rotate: false
+  xy: 678, 112
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Orbital Development
+  rotate: false
+  xy: 678, 14
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Smart Materials
+  rotate: false
+  xy: 786, 318
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Space Colonization
+  rotate: false
+  xy: 884, 318
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Terraforming
+  rotate: false
+  xy: 982, 318
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Transgenics
+  rotate: false
+  xy: 1080, 318
+  size: 90, 90
+  orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Phasers
   rotate: false
-  xy: 328, 4
+  xy: 590, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
