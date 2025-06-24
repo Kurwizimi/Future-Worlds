@@ -270,7 +270,7 @@
 		"requiredTech": "Transgenics"
 	},	
 	{
-		"name": "Trangenic Nursery",
+		"name": "Transgenic Nursery",
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"uniques": ["[+1 Food] from [Forest] tiles [in this city]", "[+1 Production] from [Jungle] tiles [in this city]", "[+1 Food, +1 Production] from [Marsh] tiles [in this city]",
