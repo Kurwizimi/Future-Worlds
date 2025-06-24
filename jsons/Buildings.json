@@ -681,7 +681,7 @@
 		"requiredTech": "Energy Theory"
 	},
 	{
-		"name": "Particle Acelerator",
+		"name": "Particle Accelerator",
 		"cost": 125,
 		"isNationalWonder": true,
 		"science": 8,
