@@ -422,7 +422,7 @@
 		"requiredTech": "Human Augmentation"
 	},
 	{
-		"name": "Brain Unploading Facility",
+		"name": "Brain Uploading Facility",
 		"cost": 780,
 		"hurryCostModifier": 160,
 		"uniques": ["[-25]% growth [in this city]", "[+2 Science, +2 Production, +2 Gold, +2 Culture, +2 Faith] per [4] population [in this city]",
