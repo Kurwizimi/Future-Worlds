@@ -6,959 +6,994 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/AI Network
   rotate: false
-  xy: 482, 884
+  xy: 482, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Angelnet
   rotate: false
-  xy: 482, 786
+  xy: 580, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Aquaculture Lab
   rotate: false
-  xy: 580, 884
+  xy: 4, 202
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Autoplant
   rotate: false
-  xy: 482, 590
+  xy: 580, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Bioenhancement Centre
   rotate: false
-  xy: 580, 590
+  xy: 580, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Biofactory
   rotate: false
-  xy: 678, 688
+  xy: 678, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Biogenesis Pod
   rotate: false
-  xy: 776, 786
+  xy: 776, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Bionic Tower
   rotate: false
-  xy: 678, 590
+  xy: 678, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Birthing Pods
   rotate: false
-  xy: 776, 688
+  xy: 874, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Borehole
   rotate: false
-  xy: 874, 786
+  xy: 972, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Brain Uploading Facility
   rotate: false
-  xy: 972, 884
+  xy: 776, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Buenos Aires Forum
   rotate: false
-  xy: 776, 590
+  xy: 874, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Burj Al-Arab
   rotate: false
-  xy: 874, 688
+  xy: 972, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Central Command
   rotate: false
-  xy: 972, 786
+  xy: 1070, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Citadel Station
   rotate: false
-  xy: 874, 590
+  xy: 972, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Cloning Lab
   rotate: false
-  xy: 1070, 786
+  xy: 1168, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Coal Converter
   rotate: false
-  xy: 1168, 884
+  xy: 972, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Oil Converter
   rotate: false
-  xy: 1168, 884
+  xy: 972, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Comm Module
   rotate: false
-  xy: 1070, 688
+  xy: 1168, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Cyberclinic
   rotate: false
-  xy: 1070, 590
+  xy: 1168, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Digital Emancipation
   rotate: false
-  xy: 1364, 884
+  xy: 1168, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Distribution Hub
   rotate: false
-  xy: 788, 297
+  xy: 984, 201
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Drone Hive
   rotate: false
-  xy: 1462, 884
+  xy: 1266, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/E-Commerce Server
   rotate: false
-  xy: 1364, 688
+  xy: 1462, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Ecosanctuary
   rotate: false
-  xy: 1560, 884
+  xy: 1364, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Engineering Module
   rotate: false
-  xy: 1560, 786
+  xy: 1658, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Enrichment Centre
   rotate: false
-  xy: 1658, 884
+  xy: 1462, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Floating Islands
   rotate: false
-  xy: 690, 102
+  xy: 1082, 299
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Fusion Reactor
   rotate: false
-  xy: 1560, 688
+  xy: 1658, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Genejack facility
   rotate: false
-  xy: 1658, 786
+  xy: 1756, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Genemod Lab
   rotate: false
-  xy: 1756, 884
+  xy: 1560, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Geofront
   rotate: false
-  xy: 1854, 884
+  xy: 1658, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Geothermal Plant
   rotate: false
-  xy: 885, 297
+  xy: 1190, 397
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
-BuildingIcons/Helios Microwave Power Sattelite
+BuildingIcons/Helios Microwave Power Satellite
   rotate: false
-  xy: 1658, 590
+  xy: 1756, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Implant Clinic
   rotate: false
-  xy: 1854, 590
+  xy: 1952, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Information Hub
   rotate: false
-  xy: 482, 492
+  xy: 580, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Jurassic Park
   rotate: false
-  xy: 580, 492
+  xy: 776, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Kalt Geymsla Data Haven
   rotate: false
-  xy: 982, 297
+  xy: 886, 6
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Launch Facility
   rotate: false
-  xy: 678, 492
+  xy: 874, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Metroplex Hub
   rotate: false
-  xy: 776, 492
+  xy: 1070, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Mnemosyne Facility
   rotate: false
-  xy: 1070, 492
+  xy: 1364, 494
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+BuildingIcons/Moon Base
+  rotate: false
+  xy: 1462, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Mycoprotein Vats
   rotate: false
-  xy: 1266, 492
+  xy: 1658, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Nanoforge
   rotate: false
-  xy: 1364, 492
+  xy: 1756, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Nanomaterial Plant
   rotate: false
-  xy: 1658, 492
+  xy: 102, 300
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Nephilim Gene Template
   rotate: false
-  xy: 1952, 492
+  xy: 102, 6
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Network Backbone
   rotate: false
-  xy: 102, 298
+  xy: 200, 310
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Nucleonic Foundry
   rotate: false
-  xy: 102, 4
+  xy: 200, 114
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Orbital Habitat
   rotate: false
-  xy: 200, 210
+  xy: 200, 16
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Orbital Refinery
   rotate: false
-  xy: 298, 308
+  xy: 298, 114
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Particle Accelerator
   rotate: false
-  xy: 298, 210
+  xy: 406, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Research Module
   rotate: false
-  xy: 298, 14
+  xy: 396, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Research Server
   rotate: false
-  xy: 406, 394
+  xy: 494, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Server Hub
   rotate: false
-  xy: 504, 394
+  xy: 494, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Shanghai Tower
   rotate: false
-  xy: 602, 394
+  xy: 494, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Shimizu Mega City Pyramid
   rotate: false
-  xy: 700, 394
+  xy: 396, 4
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Sky City
   rotate: false
-  xy: 798, 394
+  xy: 494, 4
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Skynet
   rotate: false
-  xy: 896, 394
+  xy: 602, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Space Station
   rotate: false
-  xy: 1190, 394
+  xy: 592, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Telepresence Hub
   rotate: false
-  xy: 1680, 394
+  xy: 690, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Tidal Array
   rotate: false
-  xy: 1876, 394
+  xy: 896, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Tidal Plant
   rotate: false
-  xy: 396, 296
+  xy: 690, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Transgenic Nursery
   rotate: false
-  xy: 396, 198
+  xy: 788, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Undersea Mining Platform
   rotate: false
-  xy: 396, 100
+  xy: 994, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Utility Fog Generator
   rotate: false
-  xy: 494, 198
+  xy: 690, 4
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Utsäde Gene Vault
   rotate: false
-  xy: 1370, 297
+  xy: 1578, 397
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/VR Training Centre
   rotate: false
-  xy: 592, 296
+  xy: 788, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Vertical Farm
   rotate: false
-  xy: 690, 296
+  xy: 1092, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Virtual Idol
   rotate: false
-  xy: 592, 100
+  xy: 788, 4
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Arcology
   rotate: false
-  xy: 210, 406
+  xy: 482, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Communications Array
   rotate: false
-  xy: 1168, 786
+  xy: 1266, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Eco-Commune
   rotate: false
-  xy: 1462, 786
+  xy: 1560, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Generator
   rotate: false
-  xy: 1560, 590
+  xy: 1658, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Genocentre
   rotate: false
-  xy: 1756, 786
+  xy: 1854, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Hydroponics Dome
   rotate: false
-  xy: 1756, 590
+  xy: 1854, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Industrial Complex
   rotate: false
-  xy: 1952, 590
+  xy: 482, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Nature Preserve
   rotate: false
-  xy: 1854, 492
+  xy: 102, 104
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ImprovementIcons/Support Node
   rotate: false
-  xy: 1484, 394
+  xy: 690, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 ResourceIcons/Nanomaterial
   rotate: false
-  xy: 1560, 492
+  xy: 1952, 494
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+TechIcons/Adamantium
+  rotate: false
+  xy: 4, 300
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Arcologies
   rotate: false
-  xy: 4, 200
+  xy: 210, 408
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Artificial Environments
   rotate: false
-  xy: 580, 786
+  xy: 678, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Artificial Intelligence
   rotate: false
-  xy: 678, 884
+  xy: 4, 104
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Autonomous Systems
   rotate: false
-  xy: 308, 406
+  xy: 482, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Biomodification
   rotate: false
-  xy: 874, 884
+  xy: 874, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Cloning
   rotate: false
-  xy: 972, 688
+  xy: 1070, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Cognitive Technology
   rotate: false
-  xy: 972, 590
+  xy: 1070, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Computronium
   rotate: false
-  xy: 1266, 884
+  xy: 1070, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Cybernetics
   rotate: false
-  xy: 690, 199
+  xy: 886, 103
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 TechIcons/Designer Lifeforms
   rotate: false
-  xy: 1266, 786
+  xy: 1364, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Digital Society
   rotate: false
-  xy: 1168, 590
+  xy: 1266, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Distributed Computing
   rotate: false
-  xy: 1266, 688
+  xy: 1364, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Ecotheory
   rotate: false
-  xy: 1364, 590
+  xy: 1462, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Energy Theory
   rotate: false
-  xy: 1462, 688
+  xy: 1560, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Environmentalism
   rotate: false
-  xy: 1462, 590
+  xy: 1560, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Genetic Manipulation
   rotate: false
-  xy: 1658, 688
+  xy: 1756, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/High-Energy Physics
   rotate: false
-  xy: 1756, 688
+  xy: 1854, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Homo Superior
   rotate: false
-  xy: 1854, 786
+  xy: 1952, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Human Augmentation
   rotate: false
-  xy: 4, 504
+  xy: 4, 506
   size: 470, 470
   orig: 470, 470
   offset: 0, 0
   index: -1
 TechIcons/Hyperstructures
   rotate: false
-  xy: 1854, 688
+  xy: 1952, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Implants
   rotate: false
-  xy: 1952, 688
+  xy: 1952, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
+TechIcons/Internet
+  rotate: false
+  xy: 678, 499
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
 TechIcons/Memetics
   rotate: false
-  xy: 1079, 297
+  xy: 1287, 397
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 TechIcons/Microscale Engineering
   rotate: false
-  xy: 874, 492
+  xy: 1168, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Nanomaterials
   rotate: false
-  xy: 1756, 492
+  xy: 102, 202
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Neural Interface
   rotate: false
-  xy: 102, 200
+  xy: 200, 212
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Orbital Development
   rotate: false
-  xy: 200, 308
+  xy: 298, 212
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Smart Materials
   rotate: false
-  xy: 994, 394
+  xy: 592, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Space Colonization
   rotate: false
-  xy: 1092, 394
+  xy: 592, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Terraforming
   rotate: false
-  xy: 1778, 394
+  xy: 788, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 TechIcons/Transgenics
   rotate: false
-  xy: 494, 296
+  xy: 886, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Advanced Destroyer
   rotate: false
-  xy: 4, 298
+  xy: 112, 408
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Airborne Forces
   rotate: false
-  xy: 112, 406
+  xy: 482, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Arsenal Ship
   rotate: false
-  xy: 482, 688
+  xy: 580, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Automaton
   rotate: false
-  xy: 4, 102
+  xy: 308, 408
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Battlesuit
   rotate: false
-  xy: 580, 688
+  xy: 678, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Bio-Titan
   rotate: false
-  xy: 678, 786
-  size: 90, 90
-  orig: 90, 90
-  offset: 0, 0
-  index: -1
-UnitIcons/Bio-Trooper
-  rotate: false
-  xy: 776, 884
+  xy: 776, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Biodrone
   rotate: false
-  xy: 4, 4
+  xy: 4, 6
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+UnitIcons/Biotrooper
+  rotate: false
+  xy: 776, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Chimera
   rotate: false
-  xy: 1070, 884
+  xy: 874, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Cybersub
   rotate: false
-  xy: 1168, 688
+  xy: 1266, 788
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
-UnitIcons/Drone FIghter
+UnitIcons/Drone Fighter
   rotate: false
-  xy: 1364, 786
+  xy: 1462, 886
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Drone UAV
   rotate: false
-  xy: 1266, 590
+  xy: 1364, 690
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Hybrid Drone
   rotate: false
-  xy: 1952, 884
+  xy: 1756, 592
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Hypervelocity Missile
   rotate: false
-  xy: 1952, 786
+  xy: 1854, 592
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+UnitIcons/Mech Artillery
+  rotate: false
+  xy: 972, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Missile Destroyer
   rotate: false
-  xy: 972, 492
+  xy: 1266, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Mutant
   rotate: false
-  xy: 1168, 492
+  xy: 1560, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Nanohive
   rotate: false
-  xy: 1462, 492
+  xy: 1854, 494
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Nexus
   rotate: false
-  xy: 102, 102
+  xy: 298, 310
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Organic Infantry
   rotate: false
-  xy: 200, 112
+  xy: 298, 16
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Phasers
   rotate: false
-  xy: 4, 396
+  xy: 4, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Power Armour Infantry
+UnitIcons/Power Armor Infantry
   rotate: false
-  xy: 200, 14
+  xy: 504, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Railgun Armor
   rotate: false
-  xy: 298, 112
+  xy: 396, 298
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+UnitIcons/Robot Infantry
+  rotate: false
+  xy: 396, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Special Forces
   rotate: false
-  xy: 1288, 394
+  xy: 592, 4
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Suborbital Bomber
   rotate: false
-  xy: 1176, 297
+  xy: 1384, 397
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 UnitIcons/Supercarrier
   rotate: false
-  xy: 1386, 394
+  xy: 700, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/T. Rex
   rotate: false
-  xy: 1582, 394
+  xy: 798, 396
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Triceratops
   rotate: false
-  xy: 1273, 297
+  xy: 1481, 397
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 UnitIcons/VTOL
   rotate: false
-  xy: 494, 100
+  xy: 886, 200
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Velociraptor
   rotate: false
-  xy: 592, 198
+  xy: 984, 298
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
