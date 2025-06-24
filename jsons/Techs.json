@@ -10,7 +10,7 @@
 				"name": "Environmentalism",
 				"row": 1,
 				"prerequisites": ["Ecology"],
-				"quote": "" //QUOTE
+				"quote": "'Earth provides enough to satisfy every man's need, but not every man's greed' - Mohandas Gandhi"
 			},
 				{
 				"name": "Telecommunications",
@@ -34,7 +34,7 @@
 				"name": "Lasers",
 				"row": 6,
 				"prerequisites": ["Computers"],
-				"quote": "" //QUOTE
+				"quote": "'The night is far spent, the day is at hand; let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
 				{
 				"name": "Satellites",
@@ -48,7 +48,7 @@
 				"name": "Advanced Ballistics",
 				"row": 9,
 				"prerequisites": ["Nuclear Fission","Rocketry"],
-				"quote": "" //QUOTE
+				"quote": "'Once the rockets are up, who cares where they come down?' - Tom Hehrer"
 			}
 		]
 	},
@@ -77,19 +77,19 @@
 				"name": "The Internet",
 				"row": 4,
 				"prerequisites": ["Mobile Tactics","Robotics"],
-				"quote": "" //Q
+				"quote": "'The Internet is becoming the town square for the global village of tomorrow' - Bill Gates"
 			},
      				{
 				"name": "Particle Physics",
 				"row": 6,
 				"prerequisites": ["Telecommunications","Robotics","Mobile Tactics"],
-				"quote": "" //Q
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
      				 {
 				"name": "Stealth",
 				"row": 8,
 				"prerequisites": ["Advanced Ballistics","Satellites"],
-				"quote": "" //QUOTE
+				"quote": "'Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
 	},
@@ -111,7 +111,7 @@
                 		"name": "Memetics",
                 		"row": 2,
                 		"prerequisites": ["Genetic Manipulation", "Globalization", "The Internet"],
-                		"quote": "" // Do the Metal Gear Rising Quote here.
+                		"quote": "'Memes, the DNA of the soul.' - Monsoon, Metal Gear Rising"
             		},
 				{
                 		"name": "Distributed Computing",
@@ -123,7 +123,7 @@
                 		"name": "Nanomaterials",
                 		"row": 6,
                 		"prerequisites": ["The Internet","Particle Physics"],
-                		"quote": "" 
+                		"quote": "'Nanomachines, son!' - Senator Armstrong, Metal Gear Rising" 
             		},
 				{
                 		"name": "High-Energy Physics",
@@ -203,19 +203,19 @@
                 		"name": "Autonomous Systems",
                 		"row": 6,
                 		"prerequisites": ["Cognitive Technology"],
-                		"quote": "" 
+                		"quote": "'We can only see a short distance ahead, but we can see plenty there that needs to be done.' - Alan Turing" 
             		},
 				{
                 		"name": "Nuclear Fusion",
                 		"row": 8,
                 		"prerequisites": ["Microscale Engineering","Orbital Development"],
-                		"quote": "" 
+                		"quote": "'The release of atomic energy has not created a new problem. It has merely made more urgent the necessity of solving an existing one.' - Albert Einstein" 
             		},
 				{
                 		"name": "Arcologies",
                 		"row": 10,
                 		"prerequisites": ["Orbital Development"],
-                		"quote": "" 
+                		"quote": "'We should throw away our arcologies and our starships, and live like the Lord intended' - Peter F. Hamilton" 
             		}
         	]
     	},
@@ -231,19 +231,19 @@
                 		"name": "Designer Lifeforms",
                 		"row": 1,
                 		"prerequisites": ["Transgenics"],
-                		"quote": ""
+                		"quote": "'Yeah, yeah, but your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should.' - Dr Ian Malcom, Jurassic Park"
             		},
 				{
                 		"name": "Biomodification",
                 		"row": 3,
                 		"prerequisites": ["Transgenics", "Implants"],
-                		"quote": "" 
+                		"quote": "'If it could be demonstrated that any complex organ existed, which could not possibly have been formed by numerous, successive, slight modifications, my theory would absolutely break down. But I can find no such case.' - Charles Darwin" 
             		},
 				{
                 		"name": "Cybernetics",
                 		"row": 4,
                 		"prerequisites": ["Neural Interface"],
-                		"quote": "" 
+                		"quote": "'It would be possible to describe everything scientifically, but it would make no sense; it would be without meaning, as if you described a Beethoven symphony as a variation of wave pressure.' - Albert Einstein" 
             		},
 				{
                 		"name": "Artificial Intelligence",
@@ -255,13 +255,13 @@
                 		"name": "Nanotechnology",
                 		"row": 7,
                 		"prerequisites": ["Autonomous Systems", "Microscale Engineering"],
-                		"quote": "" 
+                		"quote": "'The impact of nanotechnology is expected to exceed the impact the electronics revolution has had on our lives. - Richard Schwartz" 
             		},
 				{
                 		"name": "Adamantium",
                 		"row": 9,
                 		"prerequisites": ["Nuclear Fusion"],
-                		"quote": "" 
+                		"quote": "'We are as indestructible as we believe ourselves to be.' - John Green" 
             		}
         	]
     	},
@@ -277,37 +277,37 @@
                 		"name": "Terraforming",
                 		"row": 1,
                 		"prerequisites": ["Designer Lifeforms", "Biomodification"],
-                		"quote": ""
+                		"quote": "'I am sorry you have to live in the time of terraforming, and not in the spring that follows.' - Annalee Newitz"
             		},
 				{
                 		"name": "Human Augmentation",
                 		"row": 3,
                 		"prerequisites": ["Biomodification", "Cybernetics"],
-                		"quote": "" 
+                		"quote": "'It's not the machines you need to fear. It's the people. Other people. The augmented men and women that will come afterwards.' - Dave Pryor" 
             		},
 				{
                 		"name": "Digital Society",
                 		"row": 5,
                 		"prerequisites": ["Cybernetics", "Artificial Intelligence"],
-                		"quote": "" 
+                		"quote": "'Reality is chaos, and we’ve created an algorithm that keeps us informed of as much of that chaos as possible, from the second we wake up to the second we go to bed, and then we wonder why we’re anxious.' - Matty Healy" 
             		},
 				{
                 		"name": "Smart Materials",
                 		"row": 6,
                 		"prerequisites": ["Autonomous Systems"],
-                		"quote": "" 
+                		"quote": "'For a smart material to be able to send out a more complex signal it needs to be nonlinear. If you hit a tuning fork twice as hard it will ring twice as loud but still at the same frequency. That's a linear response. If you hit a person twice as hard they're unlikely just to shout twice as loud. That property lets you learn more about the person than the tuning fork.' - Neil Gershenfeld" 
             		},
 				{
                 		"name": "Energy Theory",
                 		"row": 8,
                 		"prerequisites": ["Artificial Intelligence", "Nanotechnology"],
-                		"quote": "" 
+                		"quote": "'Instead of worrying about what you cannot control, shift your energy to what you can create.' - Roy T. Bennett" 
             		},
 				{
                 		"name": "Hyperstructures",
                 		"row": 10,
                 		"prerequisites": ["Adamantium", "Arcologies"],
-                		"quote": "" 
+                		"quote": "'The struggle itself towards the heights is enough to fill a man's heart.' - Albert Camus" 
             		}
         	]
     	},
@@ -323,19 +323,19 @@
                 		"name": "Homo Superior",
                 		"row": 1,
                 		"prerequisites": ["Terraforming", "Human Augmentation"],
-                		"quote": ""
+                		"quote": "'What's with these guys? It's like one of my Japanese animes!' - Otacon, Metal Gear Solid"
             		},
 				{
                 		"name": "Computronium",
                 		"row": 3,
                 		"prerequisites": ["Digital Society", "Smart Materials"],
-                		"quote": "" 
+                		"quote": "'AI has by now succeeded in doing essentially everything that requires ‘thinking’ but has failed to do most of what people and animals do ‘without thinking’—that, somehow, is much harder!' - Donald Knuth" 
             		},
 				{
                 		"name": "Space Colonization",
                 		"row": 10,
                 		"prerequisites": ["Energy Theory", "Hyperstructures"],
-                		"quote": "" 
+                		"quote": "'In bewilderment then he almost stopped - /nIn what cold clockwork of the stars and the nations /nWas he the hand pointing that second?' Ted Hughes, Bayonet Charge" 
             		}
         	]
     	},
