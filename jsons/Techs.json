@@ -105,7 +105,7 @@
                 		"name": "Cloning",
                 		"row": 1,
                 		"prerequisites": ["Genetic Manipulation"],
-                		"quote": ""
+                		"quote": "'Better a soulless clone... than a souled roach.' - David Mitchell"
             		},
 				{
                 		"name": "Memetics",
@@ -117,7 +117,7 @@
                 		"name": "Distributed Computing",
                 		"row": 4,
                 		"prerequisites": ["The Internet"],
-                		"quote": "" 
+                		"quote": "'I think computer viruses should count as life ... I think it says something about human nature that the only form of life we have created so far is purely destructive. We've created life in our own image' - Stephen Hawking" 
             		},
 				{
                 		"name": "Nanomaterials",
@@ -135,7 +135,7 @@
                 		"name": "Artificial Environments",
                 		"row": 10,
                 		"prerequisites": ["Stealth"],
-                		"quote": "" 
+                		"quote": "'The marks humans leave are too often scars.' - John Green" 
             		}
         	]
     	},
@@ -151,7 +151,7 @@
                 		"name": "Ecotheory",
                 		"row": 2,
                 		"prerequisites": ["Memetics"],
-                		"quote": ""
+                		"quote": "'Go to heaven for the climate and hell for the company.' - Benjamin Franklin Wade"
             		},
 				{
                 		"name": "Implants",
@@ -163,19 +163,19 @@
                 		"name": "Cognitive Technology",
                 		"row": 5,
                 		"prerequisites": ["Distributed Computing", "Nanomaterials"],
-                		"quote": "" 
+                		"quote": "'Everything you can imagine is real.' - Pablo Picasso" 
             		},
 				{
                 		"name": "Microscale Engineering",
                 		"row": 7,
                 		"prerequisites": ["Nanomaterials", "High-Energy Physics"],
-                		"quote": "" 
+                		"quote": "'Stop acting so small. You are the universe in ecstatic motion.' - Rumi" 
             		},
 				{
                 		"name": "Orbital Development",
                 		"row": 9,
                 		"prerequisites": ["High-Energy Physics", "Artificial Environments"],
-                		"quote": "" 
+                		"quote": "'We are all in the gutter, but some of us are looking at the stars.' - Oscar Wilde" 
             		}
         	]
     	},
@@ -191,13 +191,13 @@
                 		"name": "Transgenics",
                 		"row": 1,
                 		"prerequisites": ["Cloning", "Ecotheory"],
-                		"quote": ""
+                		"quote": "'The era of the transgenic chicken is quietly dawning, coming soon to your bathroom medicine cabinet.' - Andrew Lawler"
             		},
 				{
                 		"name": "Neural Interface",
                 		"row": 4,
                 		"prerequisites": ["Implants", "Cognitive Technology"],
-                		"quote": "" 
+                		"quote": "'Why should you believe your eyes? You were given eyes to see with, not to believe with. Your eyes can see the mirage, the hallucination as easily as the actual scenery.' - Ward Moore" 
             		},
 				{
                 		"name": "Autonomous Systems",
@@ -249,7 +249,7 @@
                 		"name": "Artificial Intelligence",
                 		"row": 5,
                 		"prerequisites": ["Autonomous Systems"],
-                		"quote": "" 
+                		"quote": "'I love mankind ... it's people I can't stand!!' - Charles M. Schulz" 
             		},
 				{
                 		"name": "Nanotechnology",
