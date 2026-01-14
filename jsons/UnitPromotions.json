@@ -2,6 +2,10 @@
   {
     "name": "Mutation",
     "uniques": ["A [Viscera] rebels <upon being defeated>"]
+  },
+  {
+    "name": "Battle Network",
+    "uniques": ["[+20]% Strength <when adjacent to a [Friendly] unit>"]
   }
 
 ]
