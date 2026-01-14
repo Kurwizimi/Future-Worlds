@@ -241,7 +241,7 @@
         	"range": 3,
         	"cost": 500,
         	"requiredTech": "Distributed Computing",
-        	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "[100]% chance to intercept air attacks","Can carry [4] [Missile] units"],
+        	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks","Can carry [4] [Missile] units"],
         	"promotions": ["Indirect Fire"],
         	"attackSound": "shipguns"
     	},
@@ -256,7 +256,7 @@
         	"requiredTech": "The Internet",
         	"upgradesTo": "Hybrid Drone",
         	"obsoleteTech": "Implants",
-		"promotions": ["Indirect Fire"],
+			"promotions": ["Indirect Fire"],
         	"attackSound": "machinegun"
     	},
 		{
@@ -267,9 +267,10 @@
         	"interceptRange": 3,
         	"cost": 425,
         	"requiredTech": "Particle Physics", 
-		"upgradesTo": "Advanced Destroyer",
+			"upgradesTo": "Advanced Destroyer",
         	"obsoleteTech": "Autonomous Systems",
-        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [1] [Missile] units"],
+        	"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>",
+				"[+100]% Strength <vs [Submarine] units>","Can carry [1] [Missile] units"],
         	"attackSound": "shipguns"
     	},
 		{
@@ -282,6 +283,16 @@
 		"upgradesTo": "Organic Infantry",
 		"obsoleteTech": "Implants",
 		"uniques": ["Heals [25] damage if it kills a unit"],
+		"promotions": ["March", "Mutation"],
+		"attackSound": "machinegun" //zombie grunt
+	},
+		{
+		"name": "Viscera", //Added
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 70,
+		"cost": 425,
+		"uniques": ["Heals [5] damage if it kills a unit", "Unbuildable"],
 		"promotions": ["March"],
 		"attackSound": "machinegun" //zombie grunt
 	},
@@ -297,14 +308,14 @@
 		"attackSound": "machinegun"
 	},
 		{
-		"name": "Railgun Armor",
+			"name": "Railgun Armor",
         	"unitType": "Armored",
         	"movement": 5,
         	"strength": 120,
         	"cost": 525,
         	"requiredTech": "High-Energy Physics",
-		"upgradesTo": "Giant Death Robot",
-		"obsoleteTech": "Adamantium",
+			"upgradesTo": "Giant Death Robot",
+			"obsoleteTech": "Adamantium",
         	"requiredResource": "Nanomaterial",
         	"uniques": ["Can move after attacking","No defensive terrain bonus"],
         	"attackSound": "tankshot" //something electrical
@@ -327,13 +338,13 @@
         	"unitType": "Aircraft Carrier",
         	"movement": 6,
         	"strength": 55,
-		"range": 1,
-		"rangedStrength": 20,
+			"range": 1,
+			"rangedStrength": 20,
         	"cost": 425,
         	"requiredTech": "Robotics",
-		"upgradesTo": "Nexus",
+			"upgradesTo": "Nexus",
         	"obsoleteTech": "Smart Materials",
-		"requiredResource": "Uranium",
+			"requiredResource": "Uranium",
         	"uniques": ["Can carry [4] [Aircraft] units", "[40]% chance to intercept air attacks"]
     	},
 		{
@@ -343,8 +354,8 @@
         	"strength": 80,
         	"cost": 525,
         	"requiredTech": "Distributed Computing",
-		"upgradesTo": "Hovertank",
-		"obsoleteTech": "Cybernetics",
+			"upgradesTo": "Hovertank",
+			"obsoleteTech": "Cybernetics",
        		"requiredResource": "Nanomaterial",
         	"uniques": [ "[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","Unable to capture cities","Ignores terrain cost"],
         	"attackSound": "machinegun"
@@ -359,7 +370,8 @@
         	"interceptRange": 4,
         	"cost": 625,
         	"requiredTech": "Autonomous Systems", 
-        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [90]% chance>","[+100]% Strength <vs [Submarine] units>","Can carry [2] [Missile] units"],
+        	"uniques": [ "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks", "Withdraws before melee combat <with [90]% chance>",
+				"[+100]% Strength <vs [Submarine] units>","Can carry [2] [Missile] units"],
         	"attackSound": "shipguns"
     	},
 		{
@@ -371,6 +383,7 @@
 		"requiredTech": "Cognitive Technology",
 		"upgradesTo": "Robot Infantry",
 		"obsoleteTech": "Artificial Intelligence",
+		"promotions": ["Battle Network"],
 		"attackSound": "machinegun"
 	},
 		{
@@ -391,7 +404,8 @@
         	"rangedStrength": 110,
         	"cost": 925,
         	"requiredTech": "Terraforming",
-		"promotions": ["Indirect Fire","March"],
+			"uniques": ["Can move after attacking"],
+			"promotions": ["Indirect Fire","March"],
         	"attackSound": "machinegun"
     	},
 		{
@@ -401,7 +415,7 @@
 		"strength": 140,
 		"cost": 1125,
 		"requiredTech": "Terraforming",
-		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage", "Consumes [1] [Nanomaterial]", "Consumes [1] [Uranium]"],
+		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage", "Consumes [1] [Nanomaterial]", "Consumes [1] [Uranium]"], //spawns genoswarms
 		"promotions": ["March","Volley"],
 		"attackSound": "machinegun" //zombie grunt
 	},
@@ -438,9 +452,9 @@
         	"range": 4,
         	"cost": 925,
         	"requiredTech": "Hyperstructures",
-		"requiredResource": "Nanomaterial"
+			"requiredResource": "Nanomaterial"
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [3] [Missile] units","No movement cost to pillage"],
-		"promotions": [ "Indirect Fire"],
+			"promotions": ["Indirect Fire", "Total Siege"],
        		"attackSound": "artillery"
     	},
 		{
@@ -452,7 +466,7 @@
         	"rangedStrength": 100,
         	"cost": 625,
         	"requiredTech": "Neural Interface",
-		"requiredResource": "Nanomaterial",
+			"requiredResource": "Nanomaterial",
         	"uniques": [ "Can see invisible [Submarine] units","[+75]% Strength <when attacking>","Can only attack [Water] tiles", "[+1] Sight","Can carry [2] [Missile] units"],
         	"attackSound": "torpedo"
     	},
@@ -465,12 +479,11 @@
         	"interceptRange": 12,
         	"cost": 525,
         	"requiredTech": "Cognitive Technology",
-		"requiredResource": "Nanomaterial",
+			"requiredResource": "Nanomaterial",
         	"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
         	"attackSound": "jetgun"
     	},
 	//Genoswarm for the Bio-titan
-	//Just need to find a way to code for it
 		{
         	"name": "Giant Death Robot",
         	"unitType": "Armored",
@@ -502,10 +515,10 @@
         	"rangedStrength": 100,
         	"cost": 525,
         	"requiredTech": "Implants",
-		"upgradesTo": "Biodrone",
-		"obsoleteTech": "Terraforming",
-		"uniques": ["Can move after attacking"],
-		"promotions": ["Indirect Fire","March"],
+			"upgradesTo": "Biodrone",
+			"obsoleteTech": "Terraforming",
+			"uniques": ["Can move after attacking"],
+			"promotions": ["Indirect Fire","March"],
         	"attackSound": "machinegun"
     	},
 		{
@@ -517,7 +530,7 @@
         	"cost": 250,
         	"requiredTech": "Microscale Engineering",
         	"uniques": ["[-100]% maintenance costs"],
-		"promotions": ["Evasion"],
+			"promotions": ["Evasion"],
         	"attackSound": "missile"
     	},
 		{
@@ -529,11 +542,11 @@
         	"range": 3,
         	"cost": 525,
         	"requiredTech": "Microscale Engineering",
-		"upgradesTo": "Crawler",
-		"obsoleteTech": "Hyperstructures",
-		"requiredResource": "Nanomaterial",
+			"upgradesTo": "Crawler",
+			"obsoleteTech": "Hyperstructures",
+			"requiredResource": "Nanomaterial",
         	"uniques": ["No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can carry [2] [Missile] units"],
-		"promotions": [ "Indirect Fire"],
+			"promotions": [ "Indirect Fire"],
        		"attackSound": "artillery"
     	},
 	{
@@ -546,7 +559,7 @@
 		"upgradesTo": "Nexus",
 		"requiredResource": "Nanomaterial",
 		"uniques": ["Ignores terrain cost"],
-		"promotions": ["March"],
+		"promotions": ["March", "Nanoswarm"],
 		"attackSound": "machinegun"
 	},
 		{
