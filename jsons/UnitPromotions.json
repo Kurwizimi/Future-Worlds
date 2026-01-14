@@ -6,6 +6,10 @@
   {
     "name": "Battle Network",
     "uniques": ["[+20]% Strength <when adjacent to a [Friendly] unit>"]
+  },
+  {
+    "name": "Total Siege",
+    "uniques": ["Free [Hypervelocity Missile] appears <when number of [Hypervelocity Missile] is less than [3]> <with [33]% chance>"]
   }
 
 ]
