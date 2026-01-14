@@ -208,7 +208,7 @@
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"requiredNearbyImprovedResources": ["Coal","Oil"],
-		"uniques": ["[+2 Gold] from [Coal] tiles [in this city]", "[+2 Gold] from [oil] tiles [in this city]", "Provides [2] [Nanomaterial]"],
+		"uniques": ["[+2 Gold] from [Coal] tiles [in this city]", "[+2 Gold] from [Oil] tiles [in this city]", "Provides [2] [Nanomaterial]"],
 		"requiredTech": "Microscale Engineering"
 	},
 	{
