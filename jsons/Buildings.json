@@ -305,7 +305,7 @@
 		"cost": 660,
 		"hurryCostModifier": 160,
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+1 Production] per [4] population [in this city]", "[+1 Production] from [Industrial Site] tiles [in this city]",
+		"uniques": ["[+1 Production] per [4] population [in this city]", "[+1 Production] from [Industrial District] tiles [in this city]",
 			    "Only available <in cities without a [Network Backbone]>", "Only available <in cities without a [Telepresence Hub]>", "Only available <in cities without a [AI Network]>"],
 		"requiredBuilding": "Information Hub",
 		"requiredTech": "Nuclear Fusion"
@@ -384,7 +384,7 @@
 		"science" : 6,
 		"culture" : 6,
 		"uniques": ["[+1 Science] from every [AI Network]", "[+1 Culture] from every [AI Network]","[+1 Production, +1 Gold] from [Support Node] tiles [in this city]",
-			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub]>", "Only available <in cities without a [Metroplex Hub ]>"],
+			    "Only available <in cities without a [Information Hub]>", "Only available <in cities without a [Distribution Hub]>", "Only available <in cities without a [Metroplex Hub]>"],
 		"requiredBuilding": "Network Backbone",
 		"requiredTech": "Artificial Intelligence"
 	},
