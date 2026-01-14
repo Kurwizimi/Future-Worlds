@@ -567,12 +567,12 @@
         	"unitType": "Helicopter",
         	"movement": 5,
         	"strength": 120,
-		"interceptRange": 4,
+			"interceptRange": 4,
         	"cost": 825,
         	"requiredTech": "Smart Materials",
-		"requiredResource": "Nanomaterial",
+			"requiredResource": "Nanomaterial",
         	"uniques": [ "[40]% chance to intercept air attacks","No defensive terrain bonus","Ignores terrain cost","Can carry [4] [Missile] units","Can carry [4] [Aircraft] units"],
-		"promotions": ["Cover I"],
+			"promotions": ["Cover I", "Nanoswarm", "Command Nexus"],
         	"attackSound": "tankshot"
    	},
 		{
@@ -595,6 +595,7 @@
 		"strength": 110,
 		"cost": 725,
 		"requiredTech": "Artificial Intelligence",
+		"promotions": ["Battle Network"],
 		"attackSound": "machinegun"
 	},
 		{
@@ -607,7 +608,7 @@
         	"requiredTech": "Nuclear Fusion",
         	"requiredResource": "Nanomaterial",
         	"uniques": ["Damage taken from interception reduced by [70]%","Cannot be carried by [Carrier] units","[+4] Sight","Can see over obstacles"],
-		"promotions": ["Evasion"],
+			"promotions": ["Evasion"],
         	"attackSound": "bombing"
     },
 		{
@@ -657,7 +658,8 @@
         	"movement": 2,
         	"cost": 1150,
         	"requiredTech": "Energy Theory",
-        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable",
+				"Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
     	},
 		{
         	"name": "SS Cockpit",
@@ -665,7 +667,8 @@
         	"movement": 2,
         	"cost": 1150,
         	"requiredTech": "Computronium",
-        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable",
+				"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
     	},
 		{
         	"name": "SS Engine",
@@ -673,8 +676,9 @@
         	"movement": 2,
         	"cost": 1150,
         	"requiredTech": "Space Colonization",
-		"requiredResource": "Nanomaterial",
-        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+			"requiredResource": "Nanomaterial",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable",
+				"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
     	},
 	{
         	"name": "SS Stasis Chamber",
@@ -682,8 +686,9 @@
         	"movement": 2,
         	"cost": 1150,
         	"requiredTech": "Homo Superior",
-		"requiredResource": "Nanomaterial",
-        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+			"requiredResource": "Nanomaterial",
+        	"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable",
+				"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
     	},
 	
 
