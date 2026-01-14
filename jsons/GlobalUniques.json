@@ -1,7 +1,7 @@
 {
     "name": "Global uniques",
     "unitUniques": [
-      "[This Unit] heals [10] HP <upon turn end> <when adjacent to a [{Friendly} {Nanohive}] unit>",
-      "[This Unit] takes [10] damage <upon turn end> <when adjacent to a [{Friendly} {Nanohive}] unit>"
+      "[This Unit] heals [10] HP <upon turn end> <when adjacent to a [{Friendly} {Nanoswarm}] unit>",
+      "[This Unit] takes [10] damage <upon turn end> <when adjacent to a [{Friendly} {Nanoswarm}] unit>"
     ]
 }
