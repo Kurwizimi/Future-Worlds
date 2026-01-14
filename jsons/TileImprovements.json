@@ -6,7 +6,8 @@
     "gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Arcologies",
-		"uniques": ["[+1 Gold, +1 Food] for each adjacent [City center]", "[+2 Gold] from [Coastal] tiles", "Gives a defensive bonus of [100]%", "Only available <with [0] to [0] neighboring [Arcology] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold, +1 Food] for each adjacent [City center]", "[+2 Gold] from [Coastal] tiles", "Gives a defensive bonus of [100]%", "Only available <with [0] to [0] neighboring [Arcology] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "A"
 	},
   {
@@ -16,7 +17,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mobile Tactics",
     //+Science with Free Thought
-		"uniques": ["[+1 Science] <after discovering [Distributed Computing]>", "[+1 Culture] <after discovering [Memetics]>", "Only available <with [0] to [0] neighboring [Communications Array] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Science] <after discovering [Distributed Computing]>", "[+1 Culture] <after discovering [Memetics]>", "Only available <with [0] to [0] neighboring [Communications Array] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "C"
 	},
    {
@@ -49,7 +51,8 @@
     "food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Transgenics",
-		"uniques": [ "[+2 Production] from [Horses] tiles", "[+2 Production] from [Cattle] tiles", "[+2 Food] from [Sheep] tiles", "[+2 Food] from [Wheat] tiles", "Gives a defensive bonus of [100]%", "Only available <with [0] to [0] neighboring [Geocentre] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [ "[+2 Production] from [Horses] tiles", "[+2 Production] from [Cattle] tiles", "[+2 Food] from [Sheep] tiles", "[+2 Food] from [Wheat] tiles", "Gives a defensive bonus of [100]%",
+			"Only available <with [0] to [0] neighboring [Genocentre] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "G"
 	},
   {
@@ -91,7 +94,8 @@
     //+Gold with Commerce
     //+Science with Free Thought
     //Units heal Ten HP when healing next to it
-		"uniques": ["[+1 Gold, +1 Production] for each adjacent [City center]", "[+2 Production] from [Hill] tiles", "Gives a defensive bonus of [50]%", "Only available <with [0] to [0] neighboring [Support Node] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold, +1 Production] for each adjacent [City center]", "[+2 Production] from [Hill] tiles", "Gives a defensive bonus of [50]%",
+			"Only available <with [0] to [0] neighboring [Support Node] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
 	},
   
