@@ -401,8 +401,7 @@
 		"strength": 140,
 		"cost": 1125,
 		"requiredTech": "Terraforming",
-		"requiredResource": "Nanomaterial",
-		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage"],
+		"uniques": ["Heals [25] damage if it kills a unit","Ignores terrain cost","No movement cost to pillage", "Consumes [1] [Nanomaterial]", "Consumes [1] [Uranium]"],
 		"promotions": ["March","Volley"],
 		"attackSound": "machinegun" //zombie grunt
 	},
