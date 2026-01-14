@@ -458,47 +458,48 @@
 	{
         "name": "Enrichment Centre",
         "isWonder": true,
-	"percentStatBonus": {"science": 100},
-	"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"percentStatBonus": {"science": 100},
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
         "requiredTech": "Particle Physics",
         "quote": ""
 	},
 	{
         "name": "Helios Microwave Power Satellite",
         "isWonder": true,
-	"greatPersonPoints": {"Great Engineer": 2},
-	"uniques": ["[+1 Gold, +1 Production] from [Desert] tiles [in this city]", "[+15]% [Production] <in cities with a [Solar Plant]>","Gain a free [Solar Plant] [in this city]", "Must be next to [Desert]"],
+		"greatPersonPoints": {"Great Engineer": 2}, //Damages units next to cities switch a Solar Plant
+		"uniques": ["[+1 Gold, +1 Production] from [Desert] tiles [in this city]", "[+100]% Yield from every [Solar Plant]", "Gain a free [Solar Plant] [in this city]", "Must be next to [Desert]"],
         "requiredTech": "High-Energy Physics",
         "quote": ""
 	},
 	{
         "name": "Jurassic Park",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 2 },
-	"gold": 6,
-	"science": 6,
-	"happiness": 6,
-	"uniques": ["[+6 Gold] from every [Stadium]", "[+6 Science] from every [Stadium]", "[+6 Happiness] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"gold": 6,
+		"science": 6,
+		"happiness": 6,
+		"uniques": ["[+2 Gold] from every [Stadium]", "[+2 Science] from every [Stadium]", "[+4 Happiness] from every [Stadium]", "Gain a free [Stadium] [in this city]",
+				"A [Triceratops] rebels <every [2] turns> <with [5]% chance> <before discovering [Designer Lifeforms]> <hidden from users>"],
         "requiredTech": "Genetic Manipulation",
         "quote": ""
 	},
 	{
         "name": "Shanghai Tower",
         "isWonder": true,
-	"specialistSlots": {"Merchant": 2},
-	"greatPersonPoints": { "Great Merchant": 2 },
-	"culture": 2,
-	"uniques": ["Gain [1500] [Gold]", "[+2 Gold] from every [Merchant]"],
+		"specialistSlots": {"Merchant": 2},
+		"greatPersonPoints": { "Great Merchant": 2 },
+		"culture": 2,
+		"uniques": ["Gain [1500] [Gold]", "[+2 Gold] from every [Merchant]"],
         "requiredTech": "Globalization",
         "quote": ""
 	},
 	{
         "name": "Burj Al-Arab",
         "isWonder": true,
-	"gold": 3,
-	"culture": 2,
-	"happiness": 4,
-	"uniques": ["[+1 Gold] from every [Broadcast Tower]", "[+1 Culture] from every [Broadcast Tower]"],
+		"gold": 3,
+		"culture": 2,
+		"happiness": 4,
+		"uniques": ["[+1 Gold, +1 Culture] from every [Broadcast Tower]"],
         "requiredTech": "Memetics",
         "quote": ""
 	},
@@ -506,50 +507,53 @@
 	{
         "name": "Angelnet",
         "isWonder": true,
-	"uniques": ["[+2 Happiness, +6 Production, +2 Gold] from every [Utility Fog Generator]", "Gain a free [Utility Fog Generator] [in this city]"],
+		"uniques": ["[+100]% Yield from every [Utility Fog Generator]", "[+2 Happiness] from all [Utility Fog Generator] buildings", "Gain a free [Utility Fog Generator] [in this city]"],
         "requiredTech": "Smart Materials",
         "quote": ""
 	},
 	{
         "name": "Citadel Station",
         "isWonder": true,
-	"uniques": ["[+2 Gold, +2 Production] from every [Engineer]", "[+2 Gold, +2 Science] from every [Scientist]"],
+		"uniques": ["[+2 Gold, +2 Production] from every [Engineer]", "[+2 Gold, +2 Science] from every [Scientist]"],
         "requiredTech": "Energy Theory",
         "quote": ""
 	},
 	{
         "name": "Digital Emancipation",
         "isWonder": true,
-	"uniques": ["[+8 Production, +6 Gold] from every [Drone Hive]", "[+1 Science, +1 Production, +1 Gold, +1 Culture] per [4] population [in all cities] <in cities with a [Brain Uploading Facility]>", "[+6 Science, +6 Culture, +6 Gold] from every [AI Network]"],
+		"uniques": ["[+8 Production, +6 Gold] from every [Drone Hive]", "[+1 Science, +1 Production, +1 Gold, +1 Culture] per [4] population [in all cities] <in cities with a [Brain Uploading Facility]>",
+					"[+6 Science, +6 Culture, +6 Gold] from every [AI Network]","[-100]% maintenance cost for [Drone Hive] buildings [in all cities]",
+					"[-100]% maintenance cost for [Brain Uploading Facility] buildings [in all cities]", "[-100]% maintenance cost for [AI Network] buildings [in all cities]"],
         "requiredTech": "Digital Society",
         "quote": ""
 	},
 	{
         "name": "Kalt Geymsla Data Haven",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 2 },
-	"uniques": ["[+2 Gold] from every [Server Hub]", "[+2 Culture, +2 Science] from [Tundra] tiles [in this city]",  "[+2 Culture, +2 Science] from [Snow] tiles [in this city]", "Must be next to [Tundra]"],
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"uniques": ["[+2 Gold] from every [Server Hub]", "[+2 Culture, +2 Science] from [Tundra] tiles [in this city]",  "[+2 Culture, +2 Science] from [Snow] tiles [in this city]", "Must be next to [Tundra]"],
         "requiredTech": "Neural Interface",
         "quote": ""
 	},
 	{
         "name": "Mnemosyne Facility",
         "isWonder": true,
-	"uniques": ["New [Military] units start with [35] XP [in this city]"],
+		"uniques": ["New [Military] units start with [35] XP [in this city]"],
         "requiredTech": "Cybernetics",
         "quote": ""
 	},
 	{
         "name": "Nephilim Gene Template",
         "isWonder": true,
-	"uniques": ["[+1 Science, +1 Production, +1 Gold] per [2] population [in all cities]", "[+2 Happiness] from every [Genemod Lab]"],
+		"uniques": ["[+1 Science, +1 Production, +1 Gold] per [2] population [in all cities]", "[+2 Happiness] from every [Genemod Lab]"],
         "requiredTech": "Human Augmentation",
         "quote": ""
 	},
 	{
         "name": "Orbital Refinery",
         "isWonder": true,
-	"uniques": ["[+2 Production] from every [Factory]", "[+2 Production] from every [Nanomaterial Plant]", "Provides [12] [Nanomaterial]"],
+		"specialistSlots": {"Engineer": 3},
+		"uniques": ["[+2 Production] from every [Factory]", "[+2 Production] from every [Nanomaterial Plant]", "Provides [12] [Nanomaterial]"],
         "requiredTech": "Human Augmentation",
         "quote": ""
 	},
@@ -557,24 +561,24 @@
 	{
         "name": "Skynet",
         "isWonder": true,
-	"uniques": ["[+10]% Strength <for [All] units>"],
+		"uniques": ["[+10]% Strength <for [All] units>"],
         "requiredTech": "Artificial Intelligence",
         "quote": ""
 	},
 	{
         "name": "Utsäde Gene Vault",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 2 },
-	"uniques": ["[+2 Science] from every [Nature Preserve]", "[+2 Gold] from every [Genocentre]", "[+2 Culture] from every [Eco-Commune]"],
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"uniques": ["[+2 Science] from every [Nature Preserve]", "[+2 Gold] from every [Genocentre]", "[+2 Culture] from every [Eco-Commune]"],
         "requiredTech": "Ecotheory",
         "quote": ""
 	},
 	{
         "name": "Virtual Idol",
         "isWonder": true,
-	"greatPersonPoints": { "Great Artist": 2 },
-	"percentStatBonus": {"culture": 75},
-	"uniques": ["Free [Great Artist] appears", "Comment [Its Hatsune Miku!]"],
+		"greatPersonPoints": { "Great Artist": 2 },
+		"percentStatBonus": {"culture": 75},
+		"uniques": ["Free [Great Artist] appears", "Comment [Its Hatsune Miku!]"],
         "requiredTech": "Cognitive Technology",
         "quote": ""
 	},
@@ -584,59 +588,60 @@
 	{
         "name": "Bionic Tower",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 2 },
-	"uniques": ["[-50]% Food consumption by specialists [in all cities]", "[-50]% Unhappiness from [Specialists] [in all cities]", "Must be next to [Coast]",
-			"Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"uniques": ["[-50]% Food consumption by specialists [in all cities]", "[-50]% Unhappiness from [Specialists] [in all cities]", "Must be next to [Coast]", "Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Human Augmentation",
         "quote": ""
 	},
 	{
         "name": "Buenos Aires Forum",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 2 },
+		"greatPersonPoints": { "Great Scientist": 2 },
 		//Golden Age Points for every pop. in this city
-	"uniques": ["Empire enters golden age", "[+50]% Golden Age length", "Must be next to [River]",
-			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+		"uniques": ["Empire enters golden age", "[+50]% Golden Age length", "Must be next to [River]","Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Hyperstructures",
         "quote": ""
 	},
 	{
         "name": "Floating Islands",
         "isWonder": true,
-	"greatPersonPoints": { "Great Scientist": 3 },
-	"uniques": ["[+3 Culture, +3 Gold] from [Coast] tiles [in this city]", "[+3 Culture, +3 Gold] from [Ocean] tiles [in this city]", "[+2 Culture, +2 Gold, +1 Food, +1 Production] from [Atoll] tiles [in this city]", "Must be next to [Coast]",
-			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+		"greatPersonPoints": { "Great Scientist": 3 },
+		"uniques": ["[+3 Culture, +3 Gold] from [Coast] tiles [in this city]", "[+3 Culture, +3 Gold] from [Ocean] tiles [in this city]",
+			"[+2 Culture, +2 Gold, +1 Food, +1 Production] from [Atoll] tiles [in this city]", "Must be next to [Coast]","Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Terraforming",
         "quote": ""
 	},
 	{
         "name": "Shimizu Mega City Pyramid",
         "isWonder": true,
-	"greatPersonPoints": { "Great Engineer": 3 },
-	"production": 20,
-	"gold": 20,
-	"science": 20,
-	"uniques": ["[+2 Happiness] from every [Autoplant]", "[+2 Happiness] from every [Drone Hive]", "Must be next to [Coast]",
-			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Sky City]>", "Only available <in cities without a [Ultima Tower]>"],
+		"greatPersonPoints": { "Great Engineer": 3 },
+		"production": 20,
+		"gold": 20,
+		"science": 20,
+		"uniques": ["[+2 Happiness] from every [Autoplant]", "[+2 Happiness] from every [Drone Hive]", "[-100]% maintenance cost for [All] buildings [in this city]", "Must be next to [Coast]","Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Digital Society",
         "quote": ""
 	},
 	{
         "name": "Sky City",
         "isWonder": true,
-	"greatPersonPoints": { "Great Engineer": 2 },
-	"uniques": ["[+4 Food, +4 Gold, +2 Happiness] from every [Vertical Farm]", "Gain a free [Utility Fog Generator] [in this city]", 
-			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Ultima Tower]>"],
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"uniques": ["[+4 Food, +4 Gold, +2 Happiness] from every [Vertical Farm]", "Gain a free [Vertical Farm] [in this city]", "Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Hyperstructures",
         "quote": ""
 	},
 	{
         "name": "Ultima Tower",
         "isWonder": true,
-	"greatPersonPoints": { "Great Engineer": 2 },
-	"happiness": 10,
-	"uniques": ["[+2] population [in all cities]", 
-			"Only available <in cities without a [Bionic Tower]>", "Only available <in cities without a [Buenos Aires Forum]>", "Only available <in cities without a [Floating Islands]>", "Only available <in cities without a [Shimizu Mega City Pyramid]>", "Only available <in cities without a [Sky City]>"],
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"happiness": 10,
+		"uniques": ["[+2] population [in all cities]", "Hyperstructure",
+			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Hyperstructures",
         "quote": ""
 	},
@@ -655,20 +660,19 @@
 		"name": "Central Command",
 		"cost": 125,
 		"isNationalWonder": true,
-		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+6 Culture] from every [Information Hub]", "[+6 Production] from every [Distribution Hub]", "[+6 Gold] from every [Metroplex Hub]", "Only available <if [Information Hub] is constructed in all [non-[Puppeted]] cities>", "Only available <in [Capital] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["[+6 Culture] from every [Information Hub]", "[+6 Production] from every [Distribution Hub]", "[+6 Gold] from every [Metroplex Hub]",
+			"Only available <if [Information Hub] is constructed in all [non-[Puppeted]] cities>", "Only available <in [Capital] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Autonomous Systems"
 	},
 	{
 		"name": "Launch Facility",
 		"cost": 125,
 		"isNationalWonder": true,
-		//Consumes two Aluminium
 		"percentStatBonus": {"gold": 20},
 		"percentStatBonus": {"science": 20},
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+15]% Production when constructing [Fighter] units [in this city]", "[+15]% Production when constructing [Bomber] units [in this city]", "[+15]% Production when constructing [Missile] units [in this city]", "[+15]% Production when constructing [Helicopter] units [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": ["[+15]% Production when constructing [Air] units [in this city]", "[+15]% Production when constructing [Missile] units [in this city]",
+			"[+15]% Production when constructing [Helicopter] units [in this city]", "Consumes [2] [Aluminum]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Stealth"
 	},
 	{
@@ -677,7 +681,8 @@
 		"isNationalWonder": true,
 		//Consumes two Nanomaterial
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 Gold] from every [Comm Module]", "Only available <in cities with a [Space Station]>", "Cost increases by [30] per owned city"],
+		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 Gold] from every [Comm Module]",
+			"Only available <in cities with a [Space Station]>", "Consumes [2] [Nanomaterial]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Energy Theory"
 	},
 	{
@@ -686,7 +691,8 @@
 		"isNationalWonder": true,
 		"science": 8,
 		"specialistSlots": {"Scientist": 3},
-		"uniques": ["Free [Great Scientist] appears", "[+2 Gold] from every [Academy]","[+2 Science] from every [Academy]  <after discovering [Artificial Intelligence]>", "[+2 Gold] from every [Academy]  <after discovering [Energy Theory]>", "Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Free [Great Scientist] appears", "[+2 Gold] from every [Academy]","[+2 Science] from every [Academy] <after discovering [Artificial Intelligence]>",
+			"[+2 Gold] from every [Academy] <after discovering [Energy Theory]>", "Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Particle Physics"
 	},
 	
