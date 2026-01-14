@@ -9,7 +9,7 @@
   },
   {
     "name": "Total Siege",
-    "uniques": ["Free [Hypervelocity Missile] appears <when number of [Hypervelocity Missile] is less than [3]> <with [33]% chance>"]
+    "uniques": ["Free [Hypervelocity Missile] appears <when number of [[Hypervelocity Missile] Units] is less than [3]> <with [33]% chance>"]
   },
   {
     "name": "Nanoswarm",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Command Nexus",
-    "uniques": ["[-15]% Strength bonus for [Enemy] units within [2] tiles"]
+    "uniques": ["[-15]% Strength bonus for [Hostile] units within [2] tiles"]
   }
 
 ]
