@@ -14,6 +14,10 @@
   {
     "name": "Nanoswarm",
     "uniques": ["Comment [Friendly units heal 10 HP when next to this unit]", "Comment [Enemy units take 10 damage when next to this unit]"]
+  },
+  {
+    "name": "Command Nexus",
+    "uniques": ["[-15]% Strength bonus for [Enemy] units within [2] tiles"]
   }
 
 ]
