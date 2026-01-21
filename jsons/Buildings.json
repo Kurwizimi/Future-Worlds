@@ -679,10 +679,9 @@
 		"name": "Moon Base",
 		"cost": 125,
 		"isNationalWonder": true,
-		//Consumes two Nanomaterial
 		"specialistSlots": {"Scientist": 2},
 		"uniques": ["[+6 Science] from every [Research Module]", "[+6 Production] from every [Engineering Module]", "[+6 Production] from every [Fusion Reactor]", "[+6 Gold] from every [Comm Module]",
-			"Only available <in cities with a [Space Station]>", "Consumes [2] [Nanomaterial]", "Cost increases by [30] per owned city"],
+			"Consumes [6] [Nanomaterial]", "Only available <in cities with a [Space Station]>", "Consumes [2] [Nanomaterial]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Energy Theory"
 	},
 	{
@@ -694,33 +693,5 @@
 		"uniques": ["Free [Great Scientist] appears", "[+2 Gold] from every [Academy]","[+2 Science] from every [Academy] <after discovering [Artificial Intelligence]>",
 			"[+2 Gold] from every [Academy] <after discovering [Energy Theory]>", "Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Particle Physics"
-	},
-	
-
-
-
-
-	
-	
-		
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	},	
 ]
