@@ -589,7 +589,7 @@
         "name": "Bionic Tower",
         "isWonder": true,
 		"greatPersonPoints": { "Great Scientist": 2 },
-		"uniques": ["[-50]% Food consumption by specialists [in all cities]", "[-50]% Unhappiness from [Specialists] [in all cities]", "Must be next to [Coast]", "Hyperstructure",
+		"uniques": ["[-50]% Food consumption by [Specialists] [in all cities]", "[-50]% Unhappiness from [Specialists] [in all cities]", "Must be next to [Coast]", "Hyperstructure",
 			"Consumes [6] [Nanomaterial]", "Only available <in cities without a [Hyperstructure]>"],
         "requiredTech": "Human Augmentation",
         "quote": ""
