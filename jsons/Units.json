@@ -197,8 +197,9 @@
         	"rangedStrength": 60,
         	"range": 8,
         	"cost": 150,
+			"movement": 1,
         	"requiredTech": "Advanced Ballistics",
-		"upgradesTo": "Hypervelocity Missile",
+			"upgradesTo": "Hypervelocity Missile",
         	"obsoleteTech": "Microscale Engineering",
         	"uniques": ["[-100]% maintenance costs"],
         	"attackSound": "missile"
@@ -528,6 +529,7 @@
         	"name": "Hypervelocity Missile",
        		"unitType": "Missile",
         	"strength": 60,
+			"movement": 2,
         	"rangedStrength": 120,
         	"range": 12,
         	"cost": 250,
